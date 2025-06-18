@@ -1,10 +1,6 @@
 pipeline {
     agent any
 
-    environment {
-        CONFIG_FILE = 'src/test/resources/env_config.xml'  // Optional if you’re not using it now
-    }
-
     stages {
         stage('Checkout Code') {
             steps {
@@ -26,8 +22,12 @@ pipeline {
 
         stage('Publish TestNG Report') {
             steps {
-                // Publish TestNG result file, if testng-results.xml exists
-                testNG(testResultsPattern: '**/test-output/testng-results.xml', escapeTestDescription: false, escapeExceptionMessages: false, showFailedBuilds: true)
+                testNG(
+                    reportFilenamePattern: '**/test-output/testng-results.xml',
+                    escapeTestDescp: false,
+                    escapeExceptionMsg: false,
+                    showFailedBuilds: true
+                )
             }
         }
     }
