@@ -7,7 +7,7 @@ pipeline {
                 checkout([$class: 'GitSCM',
                     branches: [[name: '*/main']],
                     userRemoteConfigs: [[
-                        url: 'https://github.com/yourusername/your-repo.git',
+                        url: 'https://github.com/niyazahmad11787/POS-FrontEnd',
                         credentialsId: '0b54b1ff-30be-4974-881f-172c6243cf8c'  // Replace with your actual credentials ID
                     ]]
                 ])
