@@ -1,0 +1,5 @@
+[INFO ] 17 Jun 2025 15:35:58,645 com.qa.hippo.utilities.HTPLLogger :- Search customer cursor is blinking in the input field.
+[INFO ] 17 Jun 2025 15:35:58,746 com.qa.hippo.utilities.HTPLLogger :- Customer is searched by mobile number9129896786
+[INFO ] 17 Jun 2025 15:35:59,561 com.qa.hippo.utilities.HTPLLogger :- Clicked on Add button!!
+[INFO ] 17 Jun 2025 15:36:06,887 com.qa.hippo.utilities.HTPLLogger :- Delivery mode as Self pickup is selected!!
+[INFO ] 17 Jun 2025 15:36:12,149 com.qa.hippo.utilities.HTPLLogger :- Searches product1000000023

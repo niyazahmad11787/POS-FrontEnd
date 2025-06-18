@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="HippoProject" preserve-order="true">
+    <listeners>
+        <listener class-name="com.qa.hippo.utilities.listeners.Listeners"></listener>
+    </listeners>
+    <parameter name="Browser" value="Chrome"></parameter>
+    <parameter name="Env" value="staging"/>
+
+    <test name="verify Login Scenerio">
+        <classes>
+            <class name="com.qa.hippo.tests.LoginPageTest"></class>
+        </classes>
+    </test>
+    
+    <test name="Verify self pickup Functionality for IHB user's">
+        <classes>
+            <class name="com.qa.hippo.tests.verifyIHBCustomerSelfPickupScenerioTest"></class>
+        </classes>
+    </test>
+    <test name="verify LogOut Scenerio">
+        <classes>
+            <class name="com.qa.hippo.tests.LogoutPageTest"></class>
+        </classes>
+    </test>
+    
+</suite>
