@@ -41,9 +41,11 @@ pipeline {
         always {
             echo 'Pipeline execution completed.'
         }
-
+        success {
+            echo 'Build succeeded!'
+        }
         failure {
-            echo 'Pipeline failed. Please check the logs and reports for details.'
+            echo 'Build failed!'
         }
     }
 }
