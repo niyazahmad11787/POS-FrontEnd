@@ -18,7 +18,8 @@
     </Appenders>
     <Loggers>
         <Root level="INFO">
-            <AppenderRef ref="File" />
+            <AppenderRef ref="File" /> <!-- ✅ This line sends logs to File -->
+            <AppenderRef ref="Console" /> <!-- ✅ This line sends logs to console -->
         </Root>
     </Loggers>
 </Configuration>

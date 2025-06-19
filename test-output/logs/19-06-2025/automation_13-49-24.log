@@ -1,0 +1,8 @@
+[INFO ] 19 Jun 2025 13:49:26,386 com.qa.hippo.tests.LogoutPageTest :- Chrome launched successfully
+[INFO ] 19 Jun 2025 13:49:26,494 com.qa.hippo.tests.LogoutPageTest :- Maximized browser
+[INFO ] 19 Jun 2025 13:49:26,517 com.qa.hippo.tests.LogoutPageTest :- Deleted all cookies
+[INFO ] 19 Jun 2025 13:49:55,230 com.qa.hippo.tests.LogoutPageTest :- Entered amount in open till text box
+[INFO ] 19 Jun 2025 13:49:55,955 com.qa.hippo.tests.LogoutPageTest :- Customer is searched by mobile number9129896786
+[INFO ] 19 Jun 2025 13:49:56,886 com.qa.hippo.tests.LogoutPageTest :- Clicked on Add button!!
+[INFO ] 19 Jun 2025 13:50:04,477 com.qa.hippo.tests.LogoutPageTest :- Delivery mode as Self pickup is selected!!
+[INFO ] 19 Jun 2025 13:50:09,951 com.qa.hippo.tests.LogoutPageTest :- Searches product1000000023

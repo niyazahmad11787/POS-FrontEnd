@@ -2,6 +2,8 @@ package com.qa.hippo.baseclass;
 
 import com.aventstack.extentreports.ExtentTest;
 import com.qa.hippo.utilities.ConfigLoader;
+import com.qa.hippo.utilities.HTPLLogger;
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -10,9 +12,8 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Parameters;
 
-import java.io.IOException;
+import java.awt.*;
 import java.time.Duration;
-import java.util.HashMap;
 import java.util.Properties;
 
 public class BaseClass {
@@ -24,38 +25,41 @@ public class BaseClass {
     /**
      * Initializes the WebDriver and browser settings.
      */
-    @Parameters({"Browser", "Env"})
-    @BeforeSuite
-    public void initializeDriver(String Browser, String Env) throws IOException {
-        if (driver == null) {
-            // Load the config for the selected environment
-            ConfigLoader.load(Env);
-
-            if (Browser.equalsIgnoreCase("Chrome")){
-                // Set Chrome download preferences
-                HashMap<String, Object> chromePrefs = new HashMap<>();
-                chromePrefs.put("download.default_directory", downloadFilepath);
-                chromePrefs.put("download.prompt_for_download", false);
-                chromePrefs.put("profile.default_content_settings.popups", 0);
-                chromePrefs.put("safebrowsing.enabled", true);
-                ChromeOptions options = new ChromeOptions();
-                options.setExperimentalOption("prefs", chromePrefs);
-                driver = new ChromeDriver(options);
-            } else if (Browser.equalsIgnoreCase("Edge")) {
-                driver=new EdgeDriver();
-            } else if (Browser.equalsIgnoreCase("FireFox")) {
-                driver=new FirefoxDriver();
-            }
-            else {
-                System.out.println("Invalid Browser Name!!!");
-            }
-            driver.manage().window().maximize();
-            driver.manage().deleteAllCookies();
-            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
-
-        }
-
+    @Parameters("Env")
+    @BeforeSuite()
+    public void setupBaseClass(String Env){
+    initializeLogger();
+    launchBrowser(Env);
+    loadBrowserConfiguration();
     }
+
+    /**
+     * Launch browser
+     *
+     * @throws AWTException
+     */
+    private void launchBrowser(String Env) {
+        ConfigLoader.load(Env);
+        String browserName = ConfigLoader.get("browser");
+        if (browserName.equalsIgnoreCase("chrome")) {
+            if (ConfigLoader.get("runonjenkins").equalsIgnoreCase("no")) {
+                initiateBrowser();
+            } else if (ConfigLoader.get("runonjenkins").equalsIgnoreCase("yes")) {
+                initiateHeadlessBrowser();
+            }
+            HTPLLogger.info("Chrome launched successfully");
+        } else if (browserName.equalsIgnoreCase("firefox")) {
+            WebDriverManager.firefoxdriver().setup();
+            driver = new FirefoxDriver();
+            HTPLLogger.info("firefox launch");
+        } else if (browserName.equalsIgnoreCase("edge")) {
+            WebDriverManager.edgedriver().setup();
+            driver = new EdgeDriver();
+        } else {
+            HTPLLogger.error("Browser not found, Please enter valid browser name");
+        }
+    }
+
     /**
      * Opens the application at the given URL.
      */
@@ -63,5 +67,40 @@ public class BaseClass {
         String url=ConfigLoader.get("base.url");
         driver.get(url);
         driver.manage().deleteAllCookies();
+    }
+
+    /**
+     * Initializes logger
+     */
+    private void initializeLogger() {
+        HTPLLogger.setClass(this);
+    }
+    private void initiateBrowser() {
+        WebDriverManager.chromedriver().setup();
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("--remote-allow-origins=*");
+        options.addArguments("force-device-scale-factor=0.75");
+        options.addArguments("high-dpi-support=0.75");
+        driver = new ChromeDriver(options);
+    }
+    private void initiateHeadlessBrowser() {
+        System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("--headless");
+        options.addArguments("--window-size=1920,1080");
+        options.addArguments("--no-sandbox");
+        options.addArguments("force-device-scale-factor=0.75");
+        options.addArguments("high-dpi-support=0.75");
+        driver = new ChromeDriver(options);
+    }
+    /**
+     * Configures browser
+     */
+    private void loadBrowserConfiguration() {
+        driver.manage().window().maximize();
+        HTPLLogger.info("Maximized browser");
+        driver.manage().deleteAllCookies();
+        HTPLLogger.info("Deleted all cookies");
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
     }
 }

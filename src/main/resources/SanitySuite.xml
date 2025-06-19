@@ -4,7 +4,7 @@
     <listeners>
         <listener class-name="com.qa.hippo.utilities.listeners.Listeners"></listener>
     </listeners>
-    <parameter name="Browser" value="Chrome"></parameter>
+<!--    <parameter name="Browser" value="Chrome"></parameter>-->
     <parameter name="Env" value="staging"/>
 
     <test name="verify Login Scenerio">
@@ -23,5 +23,4 @@
             <class name="com.qa.hippo.tests.LogoutPageTest"></class>
         </classes>
     </test>
-    
 </suite>

@@ -14,6 +14,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
 import java.time.Duration;
+import java.util.List;
 
 public class LoginPageFrontOffice {
 
@@ -25,6 +26,9 @@ public class LoginPageFrontOffice {
 
     @FindBy(xpath = "//button[contains(text(),'Login')]")
     WebElement loginButton;
+
+    @FindBy(xpath = "//div[text()='This terminal already in use']")
+    WebElement terminalUseAlert;
 
     WebDriver driver;
     public LoginPageFrontOffice(WebDriver driver) {
@@ -42,6 +46,7 @@ public class LoginPageFrontOffice {
       try {
           waitForReload.until(ExpectedConditions.visibilityOf(userIdTextbox));
           userIdTextbox.sendKeys(userId);
+          HTPLLogger.info("UserId is Entered!!");
       } catch (RuntimeException e) {
           HTPLLogger.error("Failure in test method EnterUserId", e);
           Assert.fail("Failure in test Method performLoginOperation!",e);
@@ -57,7 +62,7 @@ public class LoginPageFrontOffice {
         try {
             waitForReload.until(ExpectedConditions.visibilityOf(userIdTextbox));
             passwordTextbox.sendKeys(password);
-
+            HTPLLogger.info("Password is Entered!!!");
         } catch (RuntimeException e) {
             HTPLLogger.error("Failure in test method enterPassword!!", e);
             Assert.fail("Failure in test method enterPassword!!",e);
@@ -73,6 +78,7 @@ public class LoginPageFrontOffice {
       try {
           waitForReload.until(ExpectedConditions.elementToBeClickable(loginButton));
           loginButton.click();
+          HTPLLogger.info("Clicked on Login Button!!");
       } catch (Exception e) {
           HTPLLogger.error("Failure in test method clickOnLoginButton!!", e);
           Assert.fail("Failure in test method clickOnLoginButton",e);
@@ -82,11 +88,26 @@ public class LoginPageFrontOffice {
         try {
             waitForReload.until(ExpectedConditions.elementToBeClickable(By.xpath("//p[.='" + terminalName + "']")));
             driver.findElement(By.xpath("//p[contains(text(),'" + terminalName + "')]")).click();
+
+            // Add a short wait to allow alert to appear (if any)
+            Thread.sleep(1000); // Optional: Replace with explicit wait if possible
+            HTPLLogger.info(terminalName + " Is selected!!");
+            // Check if the "already in use" alert is displayed
+            List<WebElement> alertList = driver.findElements(By.xpath("//div[text()='This terminal already in use']"));
+            if (!alertList.isEmpty() && alertList.get(0).isDisplayed()) {
+                HTPLLogger.warn("Terminal '" + terminalName + "' is already in use.");
+                throw new AssertionError("Terminal '" + terminalName + "' is already in use.");
+            }
+
         } catch (TimeoutException e) {
             HTPLLogger.error("Failure in test method selectTerminal!!", e);
             throw new AssertionError("Terminal '" + terminalName + "' not found.");
+        } catch (InterruptedException e) {
+            Thread.currentThread().interrupt();
+            HTPLLogger.error("Thread interrupted while waiting for alert", e);
         }
     }
+
     /**
      * Logs in with given user id and password
      */
