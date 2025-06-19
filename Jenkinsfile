@@ -2,33 +2,50 @@ pipeline {
     agent any
 
     stages {
-        stage('Checkout Code') {
+        stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/niyazahmad11787/POS-FrontEnd.git'
+                echo 'Checking out code from GitHub...'
+                checkout([$class: 'GitSCM',
+                    branches: [[name: '*/main']],
+                    userRemoteConfigs: [[
+                        url: 'https://github.com/niyazahmad11787/POS-FrontEnd',
+                        credentialsId: '0b54b1ff-30be-4974-881f-172c6243cf8c'
+                    ]]
+                ])
             }
         }
 
-        stage('Build Project') {
+        stage('Build & Test') {
             steps {
-                sh 'mvn clean install -DskipTests'
+                echo 'Running Maven clean and test using SanitySuite.xml...'
+                bat 'mvn clean test -Dsurefire.suiteXmlFiles=src/main/resources/SanitySuite.xml'
             }
         }
 
-        stage('Run Tests') {
+        stage('Publish Report') {
             steps {
-                sh 'mvn test'
+                echo 'Publishing Extent HTML Report...'
+                publishHTML([
+                    allowMissing: false,
+                    alwaysLinkToLastBuild: true,
+                    keepAll: true,
+                    reportDir: 'reports',
+                    reportFiles: 'index.html',
+                    reportName: 'Extent Report'
+                ])
             }
         }
+    }
 
-        stage('Publish TestNG Report') {
-            steps {
-                testNG(
-                    reportFilenamePattern: '**/test-output/testng-results.xml',
-                    escapeTestDescp: false,
-                    escapeExceptionMsg: false,
-                    showFailedBuilds: true
-                )
-            }
+    post {
+        always {
+            echo 'Pipeline execution completed.'
+        }
+        success {
+            echo 'Build succeeded!'
+        }
+        failure {
+            echo 'Build failed!'
         }
     }
 }
