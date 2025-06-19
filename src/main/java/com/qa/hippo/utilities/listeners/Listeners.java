@@ -5,14 +5,15 @@ import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 import com.qa.hippo.utilities.ExtentReporterNG;
 import com.qa.hippo.utilities.HTPLLogger;
-import org.testng.ITestContext;
-import org.testng.ITestListener;
-import org.testng.ITestResult;
+import org.testng.*;
 
-public class Listeners implements ITestListener {
+import java.awt.*;
+import java.io.File;
+import java.io.IOException;
+
+public class Listeners implements ITestListener, ISuiteListener {
 
     ExtentReports extentReports = ExtentReporterNG.getReportObject();
-
     // Use ThreadLocal for safe parallel execution
     public static ThreadLocal<ExtentTest> extentTestThread = new ThreadLocal<>();
 
@@ -22,10 +23,12 @@ public class Listeners implements ITestListener {
         extentTestThread.set(test);
         HTPLLogger.setLogger(result.getTestClass().getRealClass(), test);
     }
+
     @Override
     public void onTestSuccess(ITestResult result) {
         extentTestThread.get().log(Status.PASS, "Test Passed!!");
     }
+
     @Override
     public void onTestFailure(ITestResult result) {
         extentTestThread.get().fail(result.getThrowable());
@@ -36,8 +39,23 @@ public class Listeners implements ITestListener {
         extentTestThread.get().log(Status.SKIP, "Test Skipped!!");
     }
 
+    // ❌ DO NOT use this for report opening — it runs after each <test> block
     @Override
     public void onFinish(ITestContext context) {
-        extentReports.flush();
+        extentReports.flush(); // Still flush after each test context (safe to keep)
+    }
+
+    // ✅ Use this one to open report once after entire suite
+    @Override
+    public void onFinish(ISuite suite) {
+        try {
+            File htmlFile = new File(System.getProperty("user.dir") + "/reports/index.html");
+            if (htmlFile.exists()) {
+                Desktop.getDesktop().browse(htmlFile.toURI());
+                System.out.println("✅ Opened report after suite: " + htmlFile.getAbsolutePath());
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }

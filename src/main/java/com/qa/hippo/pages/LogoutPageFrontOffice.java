@@ -33,6 +33,7 @@ public class LogoutPageFrontOffice {
            WebDriverWait waitForReload = new WebDriverWait(driver, Duration.ofSeconds(30));
            waitForReload.until(ExpectedConditions.elementToBeClickable(logoutButton));
            logoutButton.click();
+           HTPLLogger.info("Clicked on LogOut Button !!");
        } catch (Exception e) {
            HTPLLogger.error("Failure in test method clickOnLogout!!", e);
             Assert.fail("Failure in test method clickOnLogout!!",e);
@@ -43,7 +44,7 @@ public class LogoutPageFrontOffice {
      */
     public void logoutFromApplication() {
    try {
-       driver.navigate().refresh();
+//       driver.navigate().refresh();
 //        driver.switchTo().alert().accept();
        clickOnProfileDropDown();
        clickOnLogout();
@@ -62,6 +63,8 @@ public class LogoutPageFrontOffice {
             WebDriverWait waitForReload = new WebDriverWait(driver, Duration.ofSeconds(30));
             waitForReload.until(ExpectedConditions.elementToBeClickable(profileDropDown));
             profileDropDown.click();
+            HTPLLogger.info("Clicked on Profile Dropdown..");
+
         } catch (Exception e) {
             HTPLLogger.error("Failure in test method clickOnLogout!!",e);
             Assert.fail("Failure in test method clickOnLogout!!");

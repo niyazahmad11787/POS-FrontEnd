@@ -1,0 +1,12 @@
+[INFO ] 19 Jun 2025 14:16:06,253 com.qa.hippo.tests.LogoutPageTest :- Chrome launched successfully
+[INFO ] 19 Jun 2025 14:16:06,298 com.qa.hippo.tests.LogoutPageTest :- Maximized browser
+[INFO ] 19 Jun 2025 14:16:06,307 com.qa.hippo.tests.LogoutPageTest :- Deleted all cookies
+[INFO ] 19 Jun 2025 14:16:09,580 com.qa.hippo.tests.LogoutPageTest :- Niyaz1 Is selected!!
+[INFO ] 19 Jun 2025 14:16:29,820 com.qa.hippo.tests.LogoutPageTest :- UserId is Entered!!
+[INFO ] 19 Jun 2025 14:16:30,053 com.qa.hippo.tests.LogoutPageTest :- Password is Entered!!!
+[INFO ] 19 Jun 2025 14:16:30,257 com.qa.hippo.tests.LogoutPageTest :- Clicked on Login Button!!
+[INFO ] 19 Jun 2025 14:16:53,969 com.qa.hippo.tests.LogoutPageTest :- Search customer cursor is blinking in the input field.
+[INFO ] 19 Jun 2025 14:16:54,060 com.qa.hippo.tests.LogoutPageTest :- Customer is searched by mobile number9129896786
+[INFO ] 19 Jun 2025 14:16:54,876 com.qa.hippo.tests.LogoutPageTest :- Clicked on Add button!!
+[INFO ] 19 Jun 2025 14:17:02,064 com.qa.hippo.tests.LogoutPageTest :- Delivery mode as Self pickup is selected!!
+[INFO ] 19 Jun 2025 14:17:07,313 com.qa.hippo.tests.LogoutPageTest :- Searches product1000000023
