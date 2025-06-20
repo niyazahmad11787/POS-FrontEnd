@@ -50,11 +50,21 @@ public class Listeners implements ITestListener, ISuiteListener {
     public void onFinish(ISuite suite) {
         try {
             File htmlFile = new File(System.getProperty("user.dir") + "/reports/POSAutomationReport.html");
+
             if (htmlFile.exists()) {
-                Desktop.getDesktop().browse(htmlFile.toURI());
-                System.out.println("✅ Opened report after suite: " + htmlFile.getAbsolutePath());
+                if (Desktop.isDesktopSupported() && !GraphicsEnvironment.isHeadless()) {
+                    Desktop.getDesktop().browse(htmlFile.toURI());
+                    System.out.println("✅ Opened report after suite: " + htmlFile.getAbsolutePath());
+                } else {
+                    System.out.println("⚠️ Desktop is not supported or environment is headless. Skipping auto-open of report.");
+                }
+            } else {
+                System.out.println("❌ Report file not found: " + htmlFile.getAbsolutePath());
             }
+
         } catch (IOException e) {
+            System.out.println("⚠️ Failed to open report. Reason: " + e.getMessage());
+            // Optional: log stacktrace if needed
             e.printStackTrace();
         }
     }
