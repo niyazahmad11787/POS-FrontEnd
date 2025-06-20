@@ -112,6 +112,7 @@ public class LoginPageFrontOffice {
      * Logs in with given user id and password
      */
     public void performLoginOperation() {
+        UtilClass.sleep(3000);
         WebDriverWait waitForReload = new WebDriverWait(driver, Duration.ofSeconds(30));
         selectTerminal(waitForReload,ConfigLoader.get("terminal"));
         enterUserId(ConfigLoader.get("userId"), waitForReload);

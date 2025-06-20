@@ -139,7 +139,7 @@ public class DashboardPage {
            searchProductTextbox.sendKeys(articleNumber);
            UtilClass.sleep(5000);
            randomclick.click();
-           HTPLLogger.info("Searches product" + articleNumber);
+           HTPLLogger.info("Searches product - " + articleNumber);
        } catch (Exception e) {
            HTPLLogger.error("Failure in selectProduct method, Unable to select Article!!",e);
            Assert.fail("Failure in selectProduct method, Unable to select Article!!",e);

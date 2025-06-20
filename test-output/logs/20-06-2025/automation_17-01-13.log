@@ -1,0 +1,32 @@
+[INFO ] 20 Jun 2025 17:01:14,322 com.qa.hippo.tests.LogoutPageTest :- Chrome launched successfully
+[INFO ] 20 Jun 2025 17:01:14,366 com.qa.hippo.tests.LogoutPageTest :- Maximized browser
+[INFO ] 20 Jun 2025 17:01:14,378 com.qa.hippo.tests.LogoutPageTest :- Deleted all cookies
+[INFO ] 20 Jun 2025 17:01:19,198 com.qa.hippo.tests.LogoutPageTest :- Niyaz1 Is selected!!
+[INFO ] 20 Jun 2025 17:01:39,415 com.qa.hippo.tests.LogoutPageTest :- UserId is Entered!!
+[INFO ] 20 Jun 2025 17:01:39,551 com.qa.hippo.tests.LogoutPageTest :- Password is Entered!!!
+[INFO ] 20 Jun 2025 17:01:39,700 com.qa.hippo.tests.LogoutPageTest :- Clicked on Login Button!!
+[INFO ] 20 Jun 2025 17:02:03,493 com.qa.hippo.tests.LogoutPageTest :- Search customer cursor is blinking in the input field.
+[INFO ] 20 Jun 2025 17:02:03,594 com.qa.hippo.tests.LogoutPageTest :- Customer is searched by mobile number :987666655
+[INFO ] 20 Jun 2025 17:02:23,670 com.qa.hippo.tests.LogoutPageTest :- Customer is not registered. Clicking 'Walk-in Customer' button.
+[INFO ] 20 Jun 2025 17:02:28,826 com.qa.hippo.tests.LogoutPageTest :- Walk-in customer selected successfully!!
+[INFO ] 20 Jun 2025 17:02:34,012 com.qa.hippo.tests.LogoutPageTest :- Delivery mode as Self pickup is selected!!
+[INFO ] 20 Jun 2025 17:02:39,306 com.qa.hippo.tests.LogoutPageTest :- Searches product - 1000000023
+[INFO ] 20 Jun 2025 17:02:39,465 com.qa.hippo.tests.LogoutPageTest :- Clicked on continue button!!
+[INFO ] 20 Jun 2025 17:02:40,157 com.qa.hippo.tests.LogoutPageTest :- Promotion applied successfully
+[INFO ] 20 Jun 2025 17:02:40,480 com.qa.hippo.tests.LogoutPageTest :- Clicked on PayNow Button!!
+[INFO ] 20 Jun 2025 17:02:42,968 com.qa.hippo.tests.LogoutPageTest :- Unable to verified customer name !!!!
+[INFO ] 20 Jun 2025 17:02:43,147 com.qa.hippo.tests.LogoutPageTest :- Clicked on proceed to pay button!!
+[INFO ] 20 Jun 2025 17:02:47,442 com.qa.hippo.tests.LogoutPageTest :- Cash payment tender was successfully selected and confirmed.
+[INFO ] 20 Jun 2025 17:02:49,623 com.qa.hippo.tests.LogoutPageTest :- Successfully clicked on the 'Proceed to Pay' button in the Payment Details section.
+[INFO ] 20 Jun 2025 17:03:19,835 com.qa.hippo.tests.LogoutPageTest :- ✅ Order has been created successfully. PDF close button is visible and enabled.
+[ERROR] 20 Jun 2025 17:03:39,880 com.qa.hippo.tests.LogoutPageTest :- ⚠️ Exception occurred while verifying order creation. Possible reasons: PDF close button not found or page not loaded properly. Exception Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@id='orderPDFOrderNumberTop']"}
+  (Session info: chrome=137.0.7151.104)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7c55a3bc10edcbfc49ab266fad2d91b3, findElement {value=//span[@id='orderPDFOrderNumberTop'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.104, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\AHMED~1.NIY\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50037}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50037/devtoo..., se:cdpVersion: 137.0.7151.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7c55a3bc10edcbfc49ab266fad2d91b3
+[INFO ] 20 Jun 2025 17:03:40,021 com.qa.hippo.tests.LogoutPageTest :- Clicked on Profile Dropdown..
+[INFO ] 20 Jun 2025 17:03:40,119 com.qa.hippo.tests.LogoutPageTest :- Clicked on LogOut Button !!
