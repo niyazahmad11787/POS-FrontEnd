@@ -1,6 +1,10 @@
 pipeline {
     agent any
 
+    options {
+        timestamps()
+    }
+
     stages {
         stage('Checkout') {
             steps {
@@ -35,6 +39,12 @@ pipeline {
                 ])
             }
         }
+
+        stage('Archive Report') {
+            steps {
+                archiveArtifacts artifacts: 'reports/index.html', fingerprint: true
+            }
+        }
     }
 
     post {
@@ -42,10 +52,10 @@ pipeline {
             echo 'Pipeline execution completed.'
         }
         success {
-            echo 'Build succeeded!'
+            echo '✅ Build succeeded!'
         }
         failure {
-            echo 'Build failed!'
+            echo '❌ Build failed!'
         }
     }
 }
