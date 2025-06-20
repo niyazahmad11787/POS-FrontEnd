@@ -42,7 +42,7 @@ pipeline {
 
         stage('Archive Report') {
             steps {
-                archiveArtifacts artifacts: 'reports/index.html', fingerprint: true
+                archiveArtifacts artifacts: 'reports/POSAutomationReport.html', fingerprint: true
             }
         }
     }
