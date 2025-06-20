@@ -1,0 +1,13 @@
+[INFO ] 20 Jun 2025 14:22:15,134 com.qa.hippo.tests.LogoutPageTest :- Chrome launched successfully
+[INFO ] 20 Jun 2025 14:22:15,180 com.qa.hippo.tests.LogoutPageTest :- Maximized browser
+[INFO ] 20 Jun 2025 14:22:15,191 com.qa.hippo.tests.LogoutPageTest :- Deleted all cookies
+[INFO ] 20 Jun 2025 14:22:17,298 com.qa.hippo.tests.LogoutPageTest :- Niyaz1 Is selected!!
+[INFO ] 20 Jun 2025 14:22:37,515 com.qa.hippo.tests.LogoutPageTest :- UserId is Entered!!
+[INFO ] 20 Jun 2025 14:22:37,635 com.qa.hippo.tests.LogoutPageTest :- Password is Entered!!!
+[INFO ] 20 Jun 2025 14:22:37,792 com.qa.hippo.tests.LogoutPageTest :- Clicked on Login Button!!
+[INFO ] 20 Jun 2025 14:23:01,522 com.qa.hippo.tests.LogoutPageTest :- Search customer cursor is blinking in the input field.
+[INFO ] 20 Jun 2025 14:23:01,635 com.qa.hippo.tests.LogoutPageTest :- Customer is searched by mobile number :987666655
+[INFO ] 20 Jun 2025 14:23:21,755 com.qa.hippo.tests.LogoutPageTest :- Customer is not registered. Clicking 'Walk-in Customer' button.
+[INFO ] 20 Jun 2025 14:23:26,923 com.qa.hippo.tests.LogoutPageTest :- Walk-in customer selected successfully!!
+[INFO ] 20 Jun 2025 14:23:27,143 com.qa.hippo.tests.LogoutPageTest :- Clicked on Profile Dropdown..
+[INFO ] 20 Jun 2025 14:23:27,246 com.qa.hippo.tests.LogoutPageTest :- Clicked on LogOut Button !!

@@ -1,0 +1,8 @@
+[INFO ] 20 Jun 2025 11:09:38,793 com.qa.hippo.tests.verifyWalkingCustomerFunctionality :- Chrome launched successfully
+[INFO ] 20 Jun 2025 11:09:38,880 com.qa.hippo.tests.verifyWalkingCustomerFunctionality :- Maximized browser
+[INFO ] 20 Jun 2025 11:09:38,907 com.qa.hippo.tests.verifyWalkingCustomerFunctionality :- Deleted all cookies
+[INFO ] 20 Jun 2025 11:09:41,164 com.qa.hippo.tests.verifyWalkingCustomerFunctionality :- Niyaz1 Is selected!!
+[INFO ] 20 Jun 2025 11:10:01,590 com.qa.hippo.tests.verifyWalkingCustomerFunctionality :- UserId is Entered!!
+[INFO ] 20 Jun 2025 11:10:01,872 com.qa.hippo.tests.verifyWalkingCustomerFunctionality :- Password is Entered!!!
+[INFO ] 20 Jun 2025 11:10:02,274 com.qa.hippo.tests.verifyWalkingCustomerFunctionality :- Clicked on Login Button!!
+[INFO ] 20 Jun 2025 11:10:26,887 com.qa.hippo.tests.verifyWalkingCustomerFunctionality :- Search customer cursor is blinking in the input field.

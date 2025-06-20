@@ -3,12 +3,15 @@ package com.qa.hippo.baseclass;
 import com.aventstack.extentreports.ExtentTest;
 import com.qa.hippo.utilities.ConfigLoader;
 import com.qa.hippo.utilities.HTPLLogger;
+import com.qa.hippo.utilities.ReadTestData;
+import com.qa.hippo.utilities.UtilClass;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Parameters;
 
@@ -22,6 +25,8 @@ public class BaseClass {
     public static Properties userProperties;
     public static String downloadFilepath = "C:\\Downloads";
     protected static ExtentTest extentTest;
+    public ReadTestData testData;
+
     /**
      * Initializes the WebDriver and browser settings.
      */
@@ -58,6 +63,12 @@ public class BaseClass {
         } else {
             HTPLLogger.error("Browser not found, Please enter valid browser name");
         }
+    }
+    /**
+     * Initializes required resources
+     */
+    private void initializeResource() {
+        testData = new ReadTestData();
     }
 
     /**

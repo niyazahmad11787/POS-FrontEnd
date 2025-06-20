@@ -49,7 +49,7 @@ public class Listeners implements ITestListener, ISuiteListener {
     @Override
     public void onFinish(ISuite suite) {
         try {
-            File htmlFile = new File(System.getProperty("user.dir") + "/reports/index.html");
+            File htmlFile = new File(System.getProperty("user.dir") + "/reports/POSAutomationReport.html");
             if (htmlFile.exists()) {
                 Desktop.getDesktop().browse(htmlFile.toURI());
                 System.out.println("✅ Opened report after suite: " + htmlFile.getAbsolutePath());

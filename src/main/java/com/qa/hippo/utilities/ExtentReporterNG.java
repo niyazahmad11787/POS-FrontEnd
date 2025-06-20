@@ -7,7 +7,7 @@ import com.aventstack.extentreports.reporter.configuration.Theme;
 public class ExtentReporterNG {
 
     public static ExtentReports getReportObject(){
-        String path=System.getProperty("user.dir")+"//reports//index.html";
+        String path=System.getProperty("user.dir")+"//reports//POSAutomationReport.html";
         ExtentSparkReporter reporter=new ExtentSparkReporter(path);
 
 

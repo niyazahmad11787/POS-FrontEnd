@@ -17,6 +17,7 @@ public class verifyIHBCustomerSelfPickupScenerioTest extends BaseClass {
     @BeforeMethod
     public void setUp(){
         dashboardPage=new DashboardPage(driver);
+
     }
 
     @Test(priority = 1)

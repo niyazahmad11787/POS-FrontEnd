@@ -1,0 +1,10 @@
+[INFO ] 20 Jun 2025 12:04:08,361 com.qa.hippo.tests.verifyWalkingCustomerFunctionality :- Chrome launched successfully
+[INFO ] 20 Jun 2025 12:04:08,419 com.qa.hippo.tests.verifyWalkingCustomerFunctionality :- Maximized browser
+[INFO ] 20 Jun 2025 12:04:08,447 com.qa.hippo.tests.verifyWalkingCustomerFunctionality :- Deleted all cookies
+[INFO ] 20 Jun 2025 12:04:10,829 com.qa.hippo.tests.verifyWalkingCustomerFunctionality :- Niyaz1 Is selected!!
+[INFO ] 20 Jun 2025 12:04:31,351 com.qa.hippo.tests.verifyWalkingCustomerFunctionality :- UserId is Entered!!
+[INFO ] 20 Jun 2025 12:04:31,767 com.qa.hippo.tests.verifyWalkingCustomerFunctionality :- Password is Entered!!!
+[INFO ] 20 Jun 2025 12:04:32,134 com.qa.hippo.tests.verifyWalkingCustomerFunctionality :- Clicked on Login Button!!
+[INFO ] 20 Jun 2025 12:04:55,689 com.qa.hippo.tests.verifyWalkingCustomerFunctionality :- Search customer cursor is blinking in the input field.
+[INFO ] 20 Jun 2025 12:04:55,925 com.qa.hippo.tests.verifyWalkingCustomerFunctionality :- Customer is searched by mobile number776766666
+[INFO ] 20 Jun 2025 12:04:56,701 com.qa.hippo.tests.verifyWalkingCustomerFunctionality :- Clicked on Walk-in Customer button!!

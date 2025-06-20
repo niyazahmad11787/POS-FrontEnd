@@ -92,7 +92,7 @@ public class DashboardPage {
            WebDriverWait waitForReload=new WebDriverWait(driver, Duration.ofSeconds(2000));
            waitForReload.until(ExpectedConditions.visibilityOf(searchCustomerTextbox));
            searchCustomerTextbox.sendKeys(customerName);
-           HTPLLogger.info("Customer is searched by mobile number" + customerName);
+           HTPLLogger.info("Customer is searched by mobile number :" + customerName);
        }catch (Exception e){
            HTPLLogger.error("Failure in Test method searchGivenCustomer",e);
            Assert.fail("Failure in Test method searchGivenCustomer",e);

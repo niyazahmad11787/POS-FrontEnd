@@ -13,12 +13,17 @@
         </classes>
     </test>
     
-    <test name="Verify self pickup Functionality for IHB user's">
+    <test name="Verify Walkin Customer Functionality">
+        <classes>
+            <class name="com.qa.hippo.tests.verifyWalkingCustomerFunctionality"></class>
+        </classes>
+    </test>
+    <test name="Verify self pickup Functionality for IHB user's" enabled="false">
         <classes>
             <class name="com.qa.hippo.tests.verifyIHBCustomerSelfPickupScenerioTest"></class>
         </classes>
     </test>
-    <test name="verify LogOut Scenerio">
+    <test name="verify LogOut Scenerio" enabled="true">
         <classes>
             <class name="com.qa.hippo.tests.LogoutPageTest"></class>
         </classes>
