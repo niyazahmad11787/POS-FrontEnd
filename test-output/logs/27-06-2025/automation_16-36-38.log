@@ -1,0 +1,23 @@
+[INFO ] 27 Jun 2025 16:36:39,993 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Chrome launched successfully
+[INFO ] 27 Jun 2025 16:36:40,035 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Maximized browser
+[INFO ] 27 Jun 2025 16:36:40,047 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Deleted all cookies
+[INFO ] 27 Jun 2025 16:36:44,893 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Niyaz1 Is selected!!
+[INFO ] 27 Jun 2025 16:37:05,132 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- UserId is Entered!!
+[INFO ] 27 Jun 2025 16:37:05,282 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Password is Entered!!!
+[INFO ] 27 Jun 2025 16:37:05,424 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Clicked on Login Button!!
+[INFO ] 27 Jun 2025 16:37:29,222 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Search customer cursor is blinking in the input field.
+[INFO ] 27 Jun 2025 16:37:29,315 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Customer is searched by mobile number :987666655
+[INFO ] 27 Jun 2025 16:37:49,426 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Customer is not registered. Clicking 'Walk-in Customer' button.
+[INFO ] 27 Jun 2025 16:37:54,626 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Walk-in customer selected successfully!!
+[INFO ] 27 Jun 2025 16:37:59,773 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Delivery mode as Self pickup is selected!!
+[INFO ] 27 Jun 2025 16:38:05,326 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Searches product - 1000000023
+[INFO ] 27 Jun 2025 16:38:05,470 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Clicked on continue button!!
+[INFO ] 27 Jun 2025 16:38:06,091 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Promotion applied successfully
+[INFO ] 27 Jun 2025 16:38:06,361 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Clicked on PayNow Button!!
+[INFO ] 27 Jun 2025 16:38:08,731 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Unable to verified customer name !!!!
+[INFO ] 27 Jun 2025 16:38:08,925 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Clicked on proceed to pay button!!
+[INFO ] 27 Jun 2025 16:38:13,194 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Cash payment tender was successfully selected and confirmed.
+[INFO ] 27 Jun 2025 16:38:15,325 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Successfully clicked on the 'Proceed to Pay' button in the Payment Details section.
+[INFO ] 27 Jun 2025 16:38:45,426 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- ✅ Order has been created successfully. PDF close button is visible and enabled.
+[INFO ] 27 Jun 2025 16:38:45,497 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Order Creation Successful → Order Number: SO/NOS1/Niyaz1/215
+[INFO ] 27 Jun 2025 16:38:45,748 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Customer is searched by mobile number :7474814623

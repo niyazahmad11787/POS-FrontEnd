@@ -7,10 +7,6 @@ import com.qa.hippo.utilities.ExtentReporterNG;
 import com.qa.hippo.utilities.HTPLLogger;
 import org.testng.*;
 
-import java.awt.*;
-import java.io.File;
-import java.io.IOException;
-
 public class Listeners implements ITestListener, ISuiteListener {
 
     ExtentReports extentReports = ExtentReporterNG.getReportObject();

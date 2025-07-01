@@ -1,0 +1,24 @@
+[INFO ] 23 Jun 2025 11:39:26,979 com.qa.hippo.tests.LogoutPageTest :- Chrome launched successfully
+[INFO ] 23 Jun 2025 11:39:27,080 com.qa.hippo.tests.LogoutPageTest :- Maximized browser
+[INFO ] 23 Jun 2025 11:39:27,107 com.qa.hippo.tests.LogoutPageTest :- Deleted all cookies
+[INFO ] 23 Jun 2025 11:39:32,659 com.qa.hippo.tests.LogoutPageTest :- Niyaz1 Is selected!!
+[INFO ] 23 Jun 2025 11:39:52,983 com.qa.hippo.tests.LogoutPageTest :- UserId is Entered!!
+[INFO ] 23 Jun 2025 11:39:53,264 com.qa.hippo.tests.LogoutPageTest :- Password is Entered!!!
+[INFO ] 23 Jun 2025 11:39:53,589 com.qa.hippo.tests.LogoutPageTest :- Clicked on Login Button!!
+[INFO ] 23 Jun 2025 11:39:59,002 com.qa.hippo.tests.LogoutPageTest :- Entered amount in open till text box
+[INFO ] 23 Jun 2025 11:39:59,707 com.qa.hippo.tests.LogoutPageTest :- Customer is searched by mobile number :987666655
+[INFO ] 23 Jun 2025 11:40:19,846 com.qa.hippo.tests.LogoutPageTest :- Customer is not registered. Clicking 'Walk-in Customer' button.
+[INFO ] 23 Jun 2025 11:40:25,081 com.qa.hippo.tests.LogoutPageTest :- Walk-in customer selected successfully!!
+[INFO ] 23 Jun 2025 11:40:30,435 com.qa.hippo.tests.LogoutPageTest :- Delivery mode as Self pickup is selected!!
+[INFO ] 23 Jun 2025 11:40:35,971 com.qa.hippo.tests.LogoutPageTest :- Searches product - 1000000023
+[INFO ] 23 Jun 2025 11:40:36,286 com.qa.hippo.tests.LogoutPageTest :- Clicked on continue button!!
+[INFO ] 23 Jun 2025 11:40:37,176 com.qa.hippo.tests.LogoutPageTest :- Promotion applied successfully
+[INFO ] 23 Jun 2025 11:40:37,614 com.qa.hippo.tests.LogoutPageTest :- Clicked on PayNow Button!!
+[INFO ] 23 Jun 2025 11:40:40,292 com.qa.hippo.tests.LogoutPageTest :- Unable to verified customer name !!!!
+[INFO ] 23 Jun 2025 11:40:40,725 com.qa.hippo.tests.LogoutPageTest :- Clicked on proceed to pay button!!
+[INFO ] 23 Jun 2025 11:40:45,370 com.qa.hippo.tests.LogoutPageTest :- Cash payment tender was successfully selected and confirmed.
+[INFO ] 23 Jun 2025 11:40:47,634 com.qa.hippo.tests.LogoutPageTest :- Successfully clicked on the 'Proceed to Pay' button in the Payment Details section.
+[INFO ] 23 Jun 2025 11:41:17,775 com.qa.hippo.tests.LogoutPageTest :- ? Order has been created successfully. PDF close button is visible and enabled.
+[INFO ] 23 Jun 2025 11:41:17,828 com.qa.hippo.tests.LogoutPageTest :- Order Creation Successful ? Order Number: SO/NOS1/Niyaz1/211
+[INFO ] 23 Jun 2025 11:41:18,523 com.qa.hippo.tests.LogoutPageTest :- Clicked on Profile Dropdown..
+[INFO ] 23 Jun 2025 11:41:18,790 com.qa.hippo.tests.LogoutPageTest :- Clicked on LogOut Button !!

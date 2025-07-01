@@ -1,0 +1,19 @@
+[INFO ] 01 Jul 2025 11:36:37,348 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Chrome launched successfully
+[INFO ] 01 Jul 2025 11:36:37,413 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Maximized browser
+[INFO ] 01 Jul 2025 11:36:37,431 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Deleted all cookies
+[INFO ] 01 Jul 2025 11:36:42,952 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Niyaz1 Is selected!!
+[INFO ] 01 Jul 2025 11:37:03,265 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- UserId is Entered!!
+[INFO ] 01 Jul 2025 11:37:03,520 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Password is Entered!!!
+[INFO ] 01 Jul 2025 11:37:03,822 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Clicked on Login Button!!
+[INFO ] 01 Jul 2025 11:37:08,656 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Customer is searched by mobile number :7194831328
+[INFO ] 01 Jul 2025 11:37:28,773 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Customer is not registered. Clicking 'Walk-in Customer' button.
+[INFO ] 01 Jul 2025 11:37:29,323 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Mobile number is Entered!!
+[INFO ] 01 Jul 2025 11:37:29,732 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Clicked on Generate Otp button!!
+[INFO ] 01 Jul 2025 11:37:35,418 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Enter otp and click on Submit button!!
+[ERROR] 01 Jul 2025 11:37:38,438 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- IHB radio button is not Selected!!!
+[INFO ] 01 Jul 2025 11:37:39,121 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- APPLICATOR is Selected!!
+[INFO ] 01 Jul 2025 11:37:41,329 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- First Name is entered!!
+[INFO ] 01 Jul 2025 11:37:41,660 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Last Name is entered!!
+[INFO ] 01 Jul 2025 11:37:42,703 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Email-ID is entered!!
+[INFO ] 01 Jul 2025 11:37:47,174 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Clicked on Select GeoCode button!!!
+[INFO ] 01 Jul 2025 11:37:52,626 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Clicked on confirm location button!!

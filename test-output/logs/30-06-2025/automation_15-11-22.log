@@ -1,0 +1,12 @@
+[INFO ] 30 Jun 2025 15:11:24,840 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Chrome launched successfully
+[INFO ] 30 Jun 2025 15:11:24,895 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Maximized browser
+[INFO ] 30 Jun 2025 15:11:24,905 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Deleted all cookies
+[INFO ] 30 Jun 2025 15:11:30,010 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Niyaz1 Is selected!!
+[INFO ] 30 Jun 2025 15:11:50,223 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- UserId is Entered!!
+[INFO ] 30 Jun 2025 15:11:50,335 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Password is Entered!!!
+[INFO ] 30 Jun 2025 15:11:50,514 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Clicked on Login Button!!
+[INFO ] 30 Jun 2025 15:11:54,335 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Customer is searched by mobile number :6808878082
+[INFO ] 30 Jun 2025 15:12:14,368 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Customer is not registered. Clicking 'Walk-in Customer' button.
+[INFO ] 30 Jun 2025 15:12:14,613 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Mobile number is Entered!!
+[INFO ] 30 Jun 2025 15:12:14,873 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Clicked on Generate Otp button!!
+[INFO ] 30 Jun 2025 15:12:19,953 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Enter otp and click on Submit button!!

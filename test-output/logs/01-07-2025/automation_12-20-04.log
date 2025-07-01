@@ -1,0 +1,5 @@
+[INFO ] 01 Jul 2025 12:20:06,235 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Chrome launched successfully
+[INFO ] 01 Jul 2025 12:20:06,335 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Maximized browser
+[INFO ] 01 Jul 2025 12:20:06,363 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Deleted all cookies
+[INFO ] 01 Jul 2025 12:20:11,674 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Niyaz1 Is selected!!
+[WARN ] 01 Jul 2025 12:20:11,722 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Terminal 'Niyaz1' is already in use.

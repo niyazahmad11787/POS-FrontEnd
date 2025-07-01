@@ -85,14 +85,14 @@ public class DashboardPage {
     /**
      * Searches given customer
      *
-     * @param customerName
+     * @param CustomerNumber
      */
-    public void searchGivenCustomer(String customerName) {
+    public void searchGivenCustomer(String CustomerNumber) {
        try {
            WebDriverWait waitForReload=new WebDriverWait(driver, Duration.ofSeconds(2000));
            waitForReload.until(ExpectedConditions.visibilityOf(searchCustomerTextbox));
-           searchCustomerTextbox.sendKeys(customerName);
-           HTPLLogger.info("Customer is searched by mobile number :" + customerName);
+           searchCustomerTextbox.sendKeys(CustomerNumber);
+           HTPLLogger.info("Customer is searched by mobile number :" + CustomerNumber);
        }catch (Exception e){
            HTPLLogger.error("Failure in Test method searchGivenCustomer",e);
            Assert.fail("Failure in Test method searchGivenCustomer",e);
