@@ -1,0 +1,20 @@
+[INFO ] 02 Jul 2025 11:43:58,256 com.qa.hippo.tests.verifyRegisterCustomerContractor :- Chrome launched successfully
+[INFO ] 02 Jul 2025 11:43:58,315 com.qa.hippo.tests.verifyRegisterCustomerContractor :- Maximized browser
+[INFO ] 02 Jul 2025 11:43:58,339 com.qa.hippo.tests.verifyRegisterCustomerContractor :- Deleted all cookies
+[INFO ] 02 Jul 2025 11:44:03,305 com.qa.hippo.tests.verifyRegisterCustomerContractor :- Niyaz1 Is selected!!
+[INFO ] 02 Jul 2025 11:44:23,815 com.qa.hippo.tests.verifyRegisterCustomerContractor :- UserId is Entered!!
+[INFO ] 02 Jul 2025 11:44:24,267 com.qa.hippo.tests.verifyRegisterCustomerContractor :- Password is Entered!!!
+[INFO ] 02 Jul 2025 11:44:24,620 com.qa.hippo.tests.verifyRegisterCustomerContractor :- Clicked on Login Button!!
+[INFO ] 02 Jul 2025 11:44:29,702 com.qa.hippo.tests.verifyRegisterCustomerContractor :- Entered amount in open till text box
+[INFO ] 02 Jul 2025 11:44:30,952 com.qa.hippo.tests.verifyRegisterCustomerContractor :- Customer is searched by mobile number :9341796246
+[INFO ] 02 Jul 2025 11:44:51,018 com.qa.hippo.tests.verifyRegisterCustomerContractor :- Customer is not registered. Clicking 'Walk-in Customer' button.
+[INFO ] 02 Jul 2025 11:44:51,621 com.qa.hippo.tests.verifyRegisterCustomerContractor :- Mobile number is Entered!!
+[INFO ] 02 Jul 2025 11:44:52,044 com.qa.hippo.tests.verifyRegisterCustomerContractor :- Clicked on Generate Otp button!!
+[INFO ] 02 Jul 2025 11:44:56,718 com.qa.hippo.tests.verifyRegisterCustomerContractor :- Enter otp and click on Submit button!!
+[INFO ] 02 Jul 2025 11:45:00,688 com.qa.hippo.tests.verifyRegisterCustomerContractor :- Contractor radio button is Selected!!
+[INFO ] 02 Jul 2025 11:45:01,758 com.qa.hippo.tests.verifyRegisterCustomerContractor :- First Name is entered!!
+[INFO ] 02 Jul 2025 11:45:02,531 com.qa.hippo.tests.verifyRegisterCustomerContractor :- Last Name is entered!!
+[INFO ] 02 Jul 2025 11:45:05,357 com.qa.hippo.tests.verifyRegisterCustomerContractor :- Email-ID is entered!!
+[INFO ] 02 Jul 2025 11:45:05,543 com.qa.hippo.tests.verifyRegisterCustomerContractor :- ✅ Mobile Number field is disabled and has a value: 9341796246
+[INFO ] 02 Jul 2025 11:45:05,652 com.qa.hippo.tests.verifyRegisterCustomerContractor :- Pan Card field is enabled and has no value.
+[INFO ] 02 Jul 2025 11:45:07,292 com.qa.hippo.tests.verifyRegisterCustomerContractor :- GST Number field is enabled and has no value.

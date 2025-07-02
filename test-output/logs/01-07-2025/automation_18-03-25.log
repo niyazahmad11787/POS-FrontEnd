@@ -1,0 +1,14 @@
+[INFO ] 01 Jul 2025 18:03:26,810 com.qa.hippo.tests.verifyRegisterCustomerContractor :- Chrome launched successfully
+[INFO ] 01 Jul 2025 18:03:26,853 com.qa.hippo.tests.verifyRegisterCustomerContractor :- Maximized browser
+[INFO ] 01 Jul 2025 18:03:26,866 com.qa.hippo.tests.verifyRegisterCustomerContractor :- Deleted all cookies
+[INFO ] 01 Jul 2025 18:03:31,719 com.qa.hippo.tests.verifyRegisterCustomerContractor :- Niyaz1 Is selected!!
+[INFO ] 01 Jul 2025 18:03:51,908 com.qa.hippo.tests.verifyRegisterCustomerContractor :- UserId is Entered!!
+[INFO ] 01 Jul 2025 18:03:52,085 com.qa.hippo.tests.verifyRegisterCustomerContractor :- Password is Entered!!!
+[INFO ] 01 Jul 2025 18:03:52,235 com.qa.hippo.tests.verifyRegisterCustomerContractor :- Clicked on Login Button!!
+[INFO ] 01 Jul 2025 18:03:56,094 com.qa.hippo.tests.verifyRegisterCustomerContractor :- Customer is searched by mobile number :9916794305
+[INFO ] 01 Jul 2025 18:04:16,193 com.qa.hippo.tests.verifyRegisterCustomerContractor :- Customer is not registered. Clicking 'Walk-in Customer' button.
+[INFO ] 01 Jul 2025 18:04:16,489 com.qa.hippo.tests.verifyRegisterCustomerContractor :- Mobile number is Entered!!
+[INFO ] 01 Jul 2025 18:04:16,788 com.qa.hippo.tests.verifyRegisterCustomerContractor :- Clicked on Generate Otp button!!
+[INFO ] 01 Jul 2025 18:04:21,391 com.qa.hippo.tests.verifyRegisterCustomerContractor :- Enter otp and click on Submit button!!
+[INFO ] 01 Jul 2025 18:04:24,372 com.qa.hippo.tests.verifyRegisterCustomerContractor :- Contractor radio button is Selected!!
+[INFO ] 01 Jul 2025 18:04:24,918 com.qa.hippo.tests.verifyRegisterCustomerContractor :- First Name is entered!!

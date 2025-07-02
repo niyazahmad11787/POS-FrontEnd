@@ -1,0 +1,32 @@
+[INFO ] 02 Jul 2025 12:26:24,842 com.qa.hippo.tests.verifyRegisterCustomerContractor :- Chrome launched successfully
+[INFO ] 02 Jul 2025 12:26:24,902 com.qa.hippo.tests.verifyRegisterCustomerContractor :- Maximized browser
+[INFO ] 02 Jul 2025 12:26:24,919 com.qa.hippo.tests.verifyRegisterCustomerContractor :- Deleted all cookies
+[INFO ] 02 Jul 2025 12:26:30,107 com.qa.hippo.tests.verifyRegisterCustomerContractor :- Niyaz1 Is selected!!
+[INFO ] 02 Jul 2025 12:26:50,485 com.qa.hippo.tests.verifyRegisterCustomerContractor :- UserId is Entered!!
+[INFO ] 02 Jul 2025 12:26:50,738 com.qa.hippo.tests.verifyRegisterCustomerContractor :- Password is Entered!!!
+[INFO ] 02 Jul 2025 12:26:51,050 com.qa.hippo.tests.verifyRegisterCustomerContractor :- Clicked on Login Button!!
+[INFO ] 02 Jul 2025 12:27:14,711 com.qa.hippo.tests.verifyRegisterCustomerContractor :- Search customer cursor is blinking in the input field.
+[INFO ] 02 Jul 2025 12:27:16,423 com.qa.hippo.tests.verifyRegisterCustomerContractor :- Customer is searched by mobile number :9940054660
+[INFO ] 02 Jul 2025 12:27:36,536 com.qa.hippo.tests.verifyRegisterCustomerContractor :- Customer is not registered. Clicking 'Walk-in Customer' button.
+[INFO ] 02 Jul 2025 12:27:37,189 com.qa.hippo.tests.verifyRegisterCustomerContractor :- Mobile number is Entered!!
+[INFO ] 02 Jul 2025 12:27:37,623 com.qa.hippo.tests.verifyRegisterCustomerContractor :- Clicked on Generate Otp button!!
+[INFO ] 02 Jul 2025 12:27:42,273 com.qa.hippo.tests.verifyRegisterCustomerContractor :- Enter otp and click on Submit button!!
+[INFO ] 02 Jul 2025 12:27:46,273 com.qa.hippo.tests.verifyRegisterCustomerContractor :- Contractor radio button is Selected!!
+[INFO ] 02 Jul 2025 12:27:47,094 com.qa.hippo.tests.verifyRegisterCustomerContractor :- First Name is entered!!
+[INFO ] 02 Jul 2025 12:27:47,889 com.qa.hippo.tests.verifyRegisterCustomerContractor :- Last Name is entered!!
+[INFO ] 02 Jul 2025 12:27:50,635 com.qa.hippo.tests.verifyRegisterCustomerContractor :- Email-ID is entered!!
+[INFO ] 02 Jul 2025 12:27:50,828 com.qa.hippo.tests.verifyRegisterCustomerContractor :- ✅ Mobile Number field is disabled and has a value: 9940054660
+[INFO ] 02 Jul 2025 12:27:50,942 com.qa.hippo.tests.verifyRegisterCustomerContractor :- Pan Card field is enabled and has no value. Entered AAFCH9262H
+[INFO ] 02 Jul 2025 12:27:52,434 com.qa.hippo.tests.verifyRegisterCustomerContractor :- Pan card validated!!
+[INFO ] 02 Jul 2025 12:27:52,549 com.qa.hippo.tests.verifyRegisterCustomerContractor :- GST Number field is enabled and has no value. Entered 06AAFCH9262H1ZE
+[INFO ] 02 Jul 2025 12:27:54,753 com.qa.hippo.tests.verifyRegisterCustomerContractor :- GST number validated!!!
+[INFO ] 02 Jul 2025 12:27:56,937 com.qa.hippo.tests.verifyRegisterCustomerContractor :- ✅ GST Address field is disabled and has a value: First Floor, Unit no 1 and Unit no 5, Good Earth Business Bay2, Sector 58, Behrampur Village, Gurugram, Gurugram, Haryana, 122102
+[INFO ] 02 Jul 2025 12:27:59,068 com.qa.hippo.tests.verifyRegisterCustomerContractor :- ✅ Trade Name field is disabled and has a value: HIPPOSTORES TECHNOLOGY PRIVATE LIMITED
+[INFO ] 02 Jul 2025 12:27:59,433 com.qa.hippo.tests.verifyRegisterCustomerContractor :- Clicked on Select GeoCode Button!!
+[INFO ] 02 Jul 2025 12:28:00,560 com.qa.hippo.tests.verifyRegisterCustomerContractor :- 122002 is searched!!
+[INFO ] 02 Jul 2025 12:28:05,150 com.qa.hippo.tests.verifyRegisterCustomerContractor :- Clicked on confirm location button!!
+[INFO ] 02 Jul 2025 12:28:05,364 com.qa.hippo.tests.verifyRegisterCustomerContractor :- Address Line 1 field is enabled and has no value. Entered Business bay 2
+[INFO ] 02 Jul 2025 12:28:08,419 com.qa.hippo.tests.verifyRegisterCustomerContractor :- ✅ Address Line 2field has a value : Gurugram, Haryana 122002, India
+[INFO ] 02 Jul 2025 12:28:09,496 com.qa.hippo.tests.verifyRegisterCustomerContractor :- ✅ State field is disabled and has a value: HARYANA
+[INFO ] 02 Jul 2025 12:28:10,589 com.qa.hippo.tests.verifyRegisterCustomerContractor :- ✅ City field is disabled and has a value: Gurgaon
+[INFO ] 02 Jul 2025 12:28:11,677 com.qa.hippo.tests.verifyRegisterCustomerContractor :- ✅ PinCodefield has a value : 122002

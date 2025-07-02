@@ -1,0 +1,18 @@
+[INFO ] 01 Jul 2025 18:05:35,690 com.qa.hippo.tests.verifyRegisterCustomerContractor :- Chrome launched successfully
+[INFO ] 01 Jul 2025 18:05:35,730 com.qa.hippo.tests.verifyRegisterCustomerContractor :- Maximized browser
+[INFO ] 01 Jul 2025 18:05:35,744 com.qa.hippo.tests.verifyRegisterCustomerContractor :- Deleted all cookies
+[INFO ] 01 Jul 2025 18:05:40,661 com.qa.hippo.tests.verifyRegisterCustomerContractor :- Niyaz1 Is selected!!
+[INFO ] 01 Jul 2025 18:06:01,145 com.qa.hippo.tests.verifyRegisterCustomerContractor :- UserId is Entered!!
+[INFO ] 01 Jul 2025 18:06:01,273 com.qa.hippo.tests.verifyRegisterCustomerContractor :- Password is Entered!!!
+[INFO ] 01 Jul 2025 18:06:01,414 com.qa.hippo.tests.verifyRegisterCustomerContractor :- Clicked on Login Button!!
+[INFO ] 01 Jul 2025 18:06:05,386 com.qa.hippo.tests.verifyRegisterCustomerContractor :- Customer is searched by mobile number :8607876234
+[INFO ] 01 Jul 2025 18:06:25,507 com.qa.hippo.tests.verifyRegisterCustomerContractor :- Customer is not registered. Clicking 'Walk-in Customer' button.
+[INFO ] 01 Jul 2025 18:06:25,807 com.qa.hippo.tests.verifyRegisterCustomerContractor :- Mobile number is Entered!!
+[INFO ] 01 Jul 2025 18:06:25,972 com.qa.hippo.tests.verifyRegisterCustomerContractor :- Clicked on Generate Otp button!!
+[INFO ] 01 Jul 2025 18:06:30,367 com.qa.hippo.tests.verifyRegisterCustomerContractor :- Enter otp and click on Submit button!!
+[INFO ] 01 Jul 2025 18:06:33,181 com.qa.hippo.tests.verifyRegisterCustomerContractor :- Contractor radio button is Selected!!
+[INFO ] 01 Jul 2025 18:06:33,718 com.qa.hippo.tests.verifyRegisterCustomerContractor :- First Name is entered!!
+[INFO ] 01 Jul 2025 18:06:34,026 com.qa.hippo.tests.verifyRegisterCustomerContractor :- Last Name is entered!!
+[INFO ] 01 Jul 2025 18:06:34,822 com.qa.hippo.tests.verifyRegisterCustomerContractor :- Email-ID is entered!!
+[INFO ] 01 Jul 2025 18:06:34,936 com.qa.hippo.tests.verifyRegisterCustomerContractor :- ✅ Mobile Number field is disabled and has a value: 8607876234
+[INFO ] 01 Jul 2025 18:06:35,009 com.qa.hippo.tests.verifyRegisterCustomerContractor :- Pan Card field is enabled and has no value.

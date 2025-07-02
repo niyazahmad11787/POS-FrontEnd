@@ -1,0 +1,27 @@
+[INFO ] 02 Jul 2025 12:15:53,297 com.qa.hippo.tests.verifyRegisterCustomerContractor :- Chrome launched successfully
+[INFO ] 02 Jul 2025 12:15:53,375 com.qa.hippo.tests.verifyRegisterCustomerContractor :- Maximized browser
+[INFO ] 02 Jul 2025 12:15:53,390 com.qa.hippo.tests.verifyRegisterCustomerContractor :- Deleted all cookies
+[INFO ] 02 Jul 2025 12:15:58,600 com.qa.hippo.tests.verifyRegisterCustomerContractor :- Niyaz1 Is selected!!
+[INFO ] 02 Jul 2025 12:16:18,923 com.qa.hippo.tests.verifyRegisterCustomerContractor :- UserId is Entered!!
+[INFO ] 02 Jul 2025 12:16:19,159 com.qa.hippo.tests.verifyRegisterCustomerContractor :- Password is Entered!!!
+[INFO ] 02 Jul 2025 12:16:19,394 com.qa.hippo.tests.verifyRegisterCustomerContractor :- Clicked on Login Button!!
+[INFO ] 02 Jul 2025 12:16:42,876 com.qa.hippo.tests.verifyRegisterCustomerContractor :- Search customer cursor is blinking in the input field.
+[INFO ] 02 Jul 2025 12:16:43,572 com.qa.hippo.tests.verifyRegisterCustomerContractor :- Customer is searched by mobile number :8981413094
+[INFO ] 02 Jul 2025 12:17:03,701 com.qa.hippo.tests.verifyRegisterCustomerContractor :- Customer is not registered. Clicking 'Walk-in Customer' button.
+[INFO ] 02 Jul 2025 12:17:04,452 com.qa.hippo.tests.verifyRegisterCustomerContractor :- Mobile number is Entered!!
+[INFO ] 02 Jul 2025 12:17:04,840 com.qa.hippo.tests.verifyRegisterCustomerContractor :- Clicked on Generate Otp button!!
+[INFO ] 02 Jul 2025 12:17:09,429 com.qa.hippo.tests.verifyRegisterCustomerContractor :- Enter otp and click on Submit button!!
+[INFO ] 02 Jul 2025 12:17:13,368 com.qa.hippo.tests.verifyRegisterCustomerContractor :- Contractor radio button is Selected!!
+[INFO ] 02 Jul 2025 12:17:14,440 com.qa.hippo.tests.verifyRegisterCustomerContractor :- First Name is entered!!
+[INFO ] 02 Jul 2025 12:17:15,117 com.qa.hippo.tests.verifyRegisterCustomerContractor :- Last Name is entered!!
+[INFO ] 02 Jul 2025 12:17:18,031 com.qa.hippo.tests.verifyRegisterCustomerContractor :- Email-ID is entered!!
+[INFO ] 02 Jul 2025 12:17:18,201 com.qa.hippo.tests.verifyRegisterCustomerContractor :- ✅ Mobile Number field is disabled and has a value: 8981413094
+[INFO ] 02 Jul 2025 12:17:18,325 com.qa.hippo.tests.verifyRegisterCustomerContractor :- Pan Card field is enabled and has no value. Entered AAFCH9262H
+[INFO ] 02 Jul 2025 12:17:19,808 com.qa.hippo.tests.verifyRegisterCustomerContractor :- Pan card validated!!
+[INFO ] 02 Jul 2025 12:17:19,994 com.qa.hippo.tests.verifyRegisterCustomerContractor :- GST Number field is enabled and has no value. Entered 06AAFCH9262H1ZE
+[INFO ] 02 Jul 2025 12:17:22,327 com.qa.hippo.tests.verifyRegisterCustomerContractor :- GST number validated!!!
+[INFO ] 02 Jul 2025 12:17:24,396 com.qa.hippo.tests.verifyRegisterCustomerContractor :- ✅ GST Address field is disabled and has a value: First Floor, Unit no 1 and Unit no 5, Good Earth Business Bay2, Sector 58, Behrampur Village, Gurugram, Gurugram, Haryana, 122102
+[INFO ] 02 Jul 2025 12:17:26,512 com.qa.hippo.tests.verifyRegisterCustomerContractor :- ✅ Trade Name field is disabled and has a value: HIPPOSTORES TECHNOLOGY PRIVATE LIMITED
+[INFO ] 02 Jul 2025 12:17:26,792 com.qa.hippo.tests.verifyRegisterCustomerContractor :- Clicked on Select GeoCode Button!!
+[INFO ] 02 Jul 2025 12:17:27,841 com.qa.hippo.tests.verifyRegisterCustomerContractor :- 122002 is searched!!
+[INFO ] 02 Jul 2025 12:17:32,448 com.qa.hippo.tests.verifyRegisterCustomerContractor :- Clicked on confirm location button!!

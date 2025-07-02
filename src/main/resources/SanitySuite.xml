@@ -18,11 +18,17 @@
         </classes>
     </test>
 
-    <test name="Verify IHB customer registration Functionality">
+    <test name="Verify IHB customer registration Functionality" enabled="false">
         <classes>
             <class name="com.qa.hippo.tests.verifyRegisterIHBNewCustomer"></class>
         </classes>
     </test>
+    <test name="Verify Contractor customer registration Functionality">
+        <classes>
+            <class name="com.qa.hippo.tests.verifyRegisterCustomerContractor"></class>
+        </classes>
+    </test>
+
     <test name="Verify self pickup Functionality for IHB user's" enabled="false">
         <classes>
             <class name="com.qa.hippo.tests.verifyIHBCustomerSelfPickupScenerioTest"></class>

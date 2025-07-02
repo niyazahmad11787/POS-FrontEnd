@@ -13,18 +13,17 @@ public class verifyRegisterIHBNewCustomer extends BaseClass {
     DashboardPage dashboardPage;
     RegisterNewCustomerIHB registerNewCustomerIHB;
 
-
     public String mobileNumber;
 
     @BeforeMethod
-    public void setUp(){
-        registerNewCustomerIHB=new RegisterNewCustomerIHB(driver);
-        dashboardPage=new DashboardPage(driver);
+    public void setUp() {
+        registerNewCustomerIHB = new RegisterNewCustomerIHB(driver);
+        dashboardPage = new DashboardPage(driver);
     }
 
     @Test(priority = 1)
-    public void verifyCustomerIsNotRegistered(){
-        mobileNumber=UtilClass.generateMobileNumber();
+    public void verifyCustomerIsNotRegistered() {
+        mobileNumber = UtilClass.generateMobileNumber();
         dashboardPage.searchGivenCustomer(mobileNumber);
         registerNewCustomerIHB.clickOnCustomerAddButton();
     }
@@ -37,8 +36,9 @@ public class verifyRegisterIHBNewCustomer extends BaseClass {
     }
 
     @Test(priority = 3)
-    public void verifyCustomerCreationFormValidation(){
+    public void verifyCustomerCreationFormValidation() {
         registerNewCustomerIHB.customerCreationForm();
     }
+
 
 }

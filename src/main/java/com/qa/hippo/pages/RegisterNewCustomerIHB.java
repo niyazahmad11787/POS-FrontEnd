@@ -112,7 +112,7 @@ public class RegisterNewCustomerIHB{
             if (isElementPresent(customerAddBtn)) {
                 HTPLLogger.info("Customer is already registered. 'Add' button is visible.");
             } else if (RegisterCustomerButton.isDisplayed()) {
-                HTPLLogger.info("Customer is not registered. Clicking 'Walk-in Customer' button.");
+                HTPLLogger.info("Customer is not registered. Clicking 'Register Customer' button.");
                 RegisterCustomerButton.click();
             } else {
                 HTPLLogger.warn("Walk-in Customer button not found, and customer may be registered.");
@@ -343,7 +343,7 @@ public class RegisterNewCustomerIHB{
     }
     }
     public void addressInputFieldIsPrefilledAfterGeoCode(){
-        isAddressFieldDisabledWithValue(addressLineOneInputField,"Address Line 1","Testing Address 1");
+        isAddressFieldDisabledWithValue(addressLineOneInputField,"Address Line 1","Good Earth Business Bay 2");
         UtilClass.waitForElementPresent(addressLinetwoInputField,2000);
         isAddressFieldDisabledWithValue(addressLinetwoInputField,"Address Line 2","Testing Address 2");
         UtilClass.waitForElementPresent(stateInputField,2000);
@@ -396,7 +396,7 @@ public class RegisterNewCustomerIHB{
     public void clickOnContinueToRegisterButton(){
        try {
            UtilClass.waitForElementAndClick(continueToRegisterButton,2000);
-           HTPLLogger.info("Click on Proceed to Continue Button!!");
+           HTPLLogger.info("Clicked on Proceed to Continue Button!!");
        } catch (Exception e) {
            HTPLLogger.error("Unable to click on Proceed to Continue button",e);
        }
