@@ -1,0 +1,131 @@
+[INFO ] 23 Jul 2025 12:15:53,439 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Chrome launched successfully
+[INFO ] 23 Jul 2025 12:15:53,492 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Maximized browser
+[INFO ] 23 Jul 2025 12:15:53,500 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Deleted all cookies
+[INFO ] 23 Jul 2025 12:15:58,299 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- AUT101 Is selected!!
+[INFO ] 23 Jul 2025 12:16:18,480 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- UserId is Entered!!
+[INFO ] 23 Jul 2025 12:16:18,586 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Password is Entered!!!
+[INFO ] 23 Jul 2025 12:16:18,698 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Clicked on Login Button!!
+[INFO ] 23 Jul 2025 12:16:42,015 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Search customer cursor is blinking in the input field.
+[INFO ] 23 Jul 2025 12:16:42,656 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Customer is searched by mobile number :7389231869
+[INFO ] 23 Jul 2025 12:17:02,764 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Customer is not registered. Clicking 'Register Customer' button.
+[INFO ] 23 Jul 2025 12:17:03,097 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Mobile number is Entered!!
+[INFO ] 23 Jul 2025 12:17:03,359 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Clicked on Generate Otp button!!
+[INFO ] 23 Jul 2025 12:17:07,544 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Enter otp and click on Submit button!!
+[ERROR] 23 Jul 2025 12:17:10,093 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- IHB radio button is not Selected!!!
+[INFO ] 23 Jul 2025 12:17:10,392 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- APPLICATOR is Selected!!
+[INFO ] 23 Jul 2025 12:17:11,789 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- First Name is entered!!
+[INFO ] 23 Jul 2025 12:17:11,950 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Last Name is entered!!
+[INFO ] 23 Jul 2025 12:17:12,521 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Email-ID is entered!!
+[INFO ] 23 Jul 2025 12:17:16,821 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Clicked on Select GeoCode button!!!
+[INFO ] 23 Jul 2025 12:17:21,799 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Clicked on confirm location button!!
+[INFO ] 23 Jul 2025 12:17:23,825 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Address Line 1 field is enabled and has no value.
+[INFO ] 23 Jul 2025 12:17:24,373 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- ✅ Address Line 2field has a value : Gurugram, Haryana 122002, India
+[INFO ] 23 Jul 2025 12:17:24,436 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- ✅ State field is disabled and has a value: HARYANA
+[INFO ] 23 Jul 2025 12:17:24,515 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- ✅ City field is disabled and has a value: Gurgaon
+[INFO ] 23 Jul 2025 12:17:24,563 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Landmark field is enabled and has no value.
+[INFO ] 23 Jul 2025 12:17:24,965 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- ✅ PinCodefield has a value : 122002
+[INFO ] 23 Jul 2025 12:17:27,003 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Default checkbox is  disabled and unable to clicked on it.
+[INFO ] 23 Jul 2025 12:17:28,107 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Clicked on Hear About Hippo Dropdown!!
+[INFO ] 23 Jul 2025 12:17:28,751 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Radio is Selected from dropdown.
+[INFO ] 23 Jul 2025 12:17:29,154 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Clicked on Proceed to Continue Button!!
+[INFO ] 23 Jul 2025 12:17:36,323 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Delivery mode as Self pickup is selected!!
+[INFO ] 23 Jul 2025 12:17:41,569 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Searched product - 1000000023
+[INFO ] 23 Jul 2025 12:17:41,693 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Clicked on continue button!!
+[INFO ] 23 Jul 2025 12:17:42,342 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Promotion applied successfully
+[INFO ] 23 Jul 2025 12:17:42,634 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Clicked on PayNow Button!!
+[INFO ] 23 Jul 2025 12:17:45,064 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Unable to verified customer name !!!!
+[INFO ] 23 Jul 2025 12:17:45,220 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Clicked on proceed to pay button!!
+[INFO ] 23 Jul 2025 12:17:49,543 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Cash payment tender was successfully selected and confirmed.
+[INFO ] 23 Jul 2025 12:17:51,712 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Successfully clicked on the 'Proceed to Pay' button in the Payment Details section.
+[INFO ] 23 Jul 2025 12:18:11,755 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- ✅ Order has been created successfully. PDF close button is visible and enabled.
+[INFO ] 23 Jul 2025 12:18:11,777 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Order Creation Successful → Order Number: SO/NOS1/AUT101/8
+[INFO ] 23 Jul 2025 12:18:12,004 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Customer is searched by mobile number :7389231869
+[INFO ] 23 Jul 2025 12:18:12,717 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Clicked on Add button!!
+[INFO ] 23 Jul 2025 12:18:12,857 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Clicked on Delivery Mode button!!
+[INFO ] 23 Jul 2025 12:18:15,972 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Selected delivery mode as delivery
+[INFO ] 23 Jul 2025 12:18:18,064 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Address is Selected!!
+[INFO ] 23 Jul 2025 12:18:20,212 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Clicked on save selection button!!
+[INFO ] 23 Jul 2025 12:18:27,418 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Searched product - 1000000023
+[INFO ] 23 Jul 2025 12:18:27,554 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Clicked on continue button!!
+[INFO ] 23 Jul 2025 12:18:28,666 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Promotion applied successfully
+[INFO ] 23 Jul 2025 12:18:28,905 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Clicked on PayNow Button!!
+[ERROR] 23 Jul 2025 12:21:54,444 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Unable to click on proceed to pay button
+org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4c62378922e9e9b7f057ee26d9a0042e, findElement {using=xpath, value=//button[@id='customerDetailsProceedToPayButton']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.168 (3e8d82e86e9..., userDataDir: C:\Users\AHMED~1.NIY\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57052}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57052/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4c62378922e9e9b7f057ee26d9a0042e
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.19.1.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.19.1.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.19.1.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190) ~[selenium-remote-driver-4.19.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.19.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.19.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518) ~[selenium-remote-driver-4.19.1.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165) ~[selenium-remote-driver-4.19.1.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59) ~[selenium-remote-driver-4.19.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355) ~[selenium-remote-driver-4.19.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349) ~[selenium-remote-driver-4.19.1.jar:?]
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68) ~[selenium-support-4.19.1.jar:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38) ~[selenium-support-4.19.1.jar:?]
+	at jdk.proxy2.$Proxy29.isDisplayed(Unknown Source) ~[?:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304) ~[selenium-support-4.19.1.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290) ~[selenium-support-4.19.1.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287) ~[selenium-support-4.19.1.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656) ~[selenium-support-4.19.1.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:652) ~[selenium-support-4.19.1.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203) ~[selenium-support-4.19.1.jar:?]
+	at com.qa.hippo.utilities.UtilClass.waitForElementAndClick(UtilClass.java:62) ~[classes/:?]
+	at com.qa.hippo.pages.DashboardPage.clickOnProceedToPayButton(DashboardPage.java:255) ~[classes/:?]
+	at com.qa.hippo.tests.verifyIHBCustomerDeliveryScenerioTest.verifyProceedToPaybutton(verifyIHBCustomerDeliveryScenerioTest.java:66) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+[ERROR] 23 Jul 2025 12:21:56,469 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Exception occurred while selecting the cash payment tender. Possible cause: element not visible or clickable. Exception Message: invalid session id
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4c62378922e9e9b7f057ee26d9a0042e, findElement {using=xpath, value=//button[@id='paymentsDetails1']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.168 (3e8d82e86e9..., userDataDir: C:\Users\AHMED~1.NIY\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57052}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57052/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4c62378922e9e9b7f057ee26d9a0042e
+[ERROR] 23 Jul 2025 12:21:58,478 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Exception occurred while interacting with the 'Proceed to Pay' button in the Payment Details section. Exception Message: invalid session id
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4c62378922e9e9b7f057ee26d9a0042e, findElement {using=xpath, value=//button[@id='paymentDetailProceedToPay']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.168 (3e8d82e86e9..., userDataDir: C:\Users\AHMED~1.NIY\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57052}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57052/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4c62378922e9e9b7f057ee26d9a0042e
+[ERROR] 23 Jul 2025 12:22:18,493 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- ⚠️ Exception occurred while verifying order creation. Possible reasons: PDF close button not found or page not loaded properly. Exception Message: invalid session id
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4c62378922e9e9b7f057ee26d9a0042e, findElement {using=xpath, value=//div[@id='closePdfButton']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.168 (3e8d82e86e9..., userDataDir: C:\Users\AHMED~1.NIY\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57052}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57052/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4c62378922e9e9b7f057ee26d9a0042e

@@ -25,6 +25,9 @@ public class BaseClass {
     public static Properties userProperties;
     public static String downloadFilepath = "C:\\Downloads";
     protected static ExtentTest extentTest;
+
+    private static String mobile;
+
 //    public ReadTestData testData;
 
     /**
@@ -36,6 +39,7 @@ public class BaseClass {
     initializeLogger();
     launchBrowser(Env);
     loadBrowserConfiguration();
+    generateMobileNumber();
     }
 
     /**
@@ -80,6 +84,20 @@ public class BaseClass {
         driver.manage().deleteAllCookies();
     }
 
+    /**
+     * Generate a random mobile number and store it
+     */
+    public void generateMobileNumber(){
+        mobile= UtilClass.generateMobileNumber();
+        System.out.println(mobile);
+    }
+
+    /**
+     * Getter method to access generated mobile number
+     */
+    public static String getMobile() {
+        return mobile;
+    }
     /**
      * Initializes logger
      */

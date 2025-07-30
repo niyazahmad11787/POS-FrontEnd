@@ -18,7 +18,7 @@ public class LoginPageTest extends BaseClass {
     }
 
     @Test(priority = 1)
-    public void performLogin(){
+    public void verifyLoginFunctionality(){
         loginPageFrontOffice.performLoginOperation();
     }
 

@@ -1,0 +1,23 @@
+[INFO ] 02 Jul 2025 16:12:50,407 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- Chrome launched successfully
+[INFO ] 02 Jul 2025 16:12:50,441 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- Maximized browser
+[INFO ] 02 Jul 2025 16:12:50,450 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- Deleted all cookies
+[INFO ] 02 Jul 2025 16:12:55,574 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- Niyaz1 Is selected!!
+[INFO ] 02 Jul 2025 16:13:15,706 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- UserId is Entered!!
+[INFO ] 02 Jul 2025 16:13:15,813 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- Password is Entered!!!
+[INFO ] 02 Jul 2025 16:13:15,917 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- Clicked on Login Button!!
+[INFO ] 02 Jul 2025 16:13:39,278 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- Search customer cursor is blinking in the input field.
+[INFO ] 02 Jul 2025 16:13:59,633 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- Search customer cursor is blinking in the input field.
+[INFO ] 02 Jul 2025 16:13:59,756 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- Customer is searched by mobile number :8271894015
+[INFO ] 02 Jul 2025 16:14:19,931 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- Customer is not registered. Clicking 'Walk-in Customer' button.
+[INFO ] 02 Jul 2025 16:14:25,131 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- Walk-in customer selected successfully!!
+[INFO ] 02 Jul 2025 16:14:30,329 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- Delivery mode as Self pickup is selected!!
+[INFO ] 02 Jul 2025 16:14:35,759 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- Searched product - 1000000023
+[INFO ] 02 Jul 2025 16:14:35,938 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- Clicked on continue button!!
+[INFO ] 02 Jul 2025 16:14:36,773 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- Promotion applied successfully
+[INFO ] 02 Jul 2025 16:14:37,065 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- Clicked on PayNow Button!!
+[INFO ] 02 Jul 2025 16:14:39,519 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- Unable to verified customer name !!!!
+[INFO ] 02 Jul 2025 16:14:39,781 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- Clicked on proceed to pay button!!
+[INFO ] 02 Jul 2025 16:14:44,150 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- Cash payment tender was successfully selected and confirmed.
+[INFO ] 02 Jul 2025 16:14:46,335 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- Successfully clicked on the 'Proceed to Pay' button in the Payment Details section.
+[INFO ] 02 Jul 2025 16:14:49,422 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- ✅ Order has been created successfully. PDF close button is visible and enabled.
+[INFO ] 02 Jul 2025 16:14:49,464 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- Order Creation Successful → Order Number: 

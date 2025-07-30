@@ -23,7 +23,7 @@ public class verifyRegisterIHBNewCustomer extends BaseClass {
 
     @Test(priority = 1)
     public void verifyCustomerIsNotRegistered() {
-        mobileNumber = UtilClass.generateMobileNumber();
+        mobileNumber = BaseClass.getMobile();
         dashboardPage.searchGivenCustomer(mobileNumber);
         registerNewCustomerIHB.clickOnCustomerAddButton();
     }

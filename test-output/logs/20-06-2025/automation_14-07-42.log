@@ -1,10 +1,10 @@
-[INFO ] 20 Jun 2025 14:07:44,761 com.qa.hippo.tests.verifyWalkingCustomerFunctionality :- Chrome launched successfully
-[INFO ] 20 Jun 2025 14:07:44,806 com.qa.hippo.tests.verifyWalkingCustomerFunctionality :- Maximized browser
-[INFO ] 20 Jun 2025 14:07:44,818 com.qa.hippo.tests.verifyWalkingCustomerFunctionality :- Deleted all cookies
-[INFO ] 20 Jun 2025 14:07:47,091 com.qa.hippo.tests.verifyWalkingCustomerFunctionality :- Niyaz1 Is selected!!
-[INFO ] 20 Jun 2025 14:08:07,460 com.qa.hippo.tests.verifyWalkingCustomerFunctionality :- UserId is Entered!!
-[INFO ] 20 Jun 2025 14:08:07,733 com.qa.hippo.tests.verifyWalkingCustomerFunctionality :- Password is Entered!!!
-[INFO ] 20 Jun 2025 14:08:08,015 com.qa.hippo.tests.verifyWalkingCustomerFunctionality :- Clicked on Login Button!!
-[INFO ] 20 Jun 2025 14:08:31,715 com.qa.hippo.tests.verifyWalkingCustomerFunctionality :- Search customer cursor is blinking in the input field.
-[INFO ] 20 Jun 2025 14:08:31,837 com.qa.hippo.tests.verifyWalkingCustomerFunctionality :- Customer is searched by mobile number :987666655
-[INFO ] 20 Jun 2025 14:08:54,399 com.qa.hippo.tests.verifyWalkingCustomerFunctionality :- Customer is not registered. Clicking 'Walk-in Customer' button.
+[INFO ] 20 Jun 2025 14:07:44,761 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- Chrome launched successfully
+[INFO ] 20 Jun 2025 14:07:44,806 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- Maximized browser
+[INFO ] 20 Jun 2025 14:07:44,818 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- Deleted all cookies
+[INFO ] 20 Jun 2025 14:07:47,091 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- Niyaz1 Is selected!!
+[INFO ] 20 Jun 2025 14:08:07,460 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- UserId is Entered!!
+[INFO ] 20 Jun 2025 14:08:07,733 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- Password is Entered!!!
+[INFO ] 20 Jun 2025 14:08:08,015 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- Clicked on Login Button!!
+[INFO ] 20 Jun 2025 14:08:31,715 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- Search customer cursor is blinking in the input field.
+[INFO ] 20 Jun 2025 14:08:31,837 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- Customer is searched by mobile number :987666655
+[INFO ] 20 Jun 2025 14:08:54,399 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- Customer is not registered. Clicking 'Walk-in Customer' button.

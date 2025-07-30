@@ -14,7 +14,7 @@
     
     <test name="Verify Walkin Customer Functionality" enabled="false">
         <classes>
-            <class name="com.qa.hippo.tests.verifyWalkingCustomerFunctionality"></class>
+            <class name="com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup"></class>
         </classes>
     </test>
 

@@ -98,7 +98,7 @@
         <version>3.5.2</version>
         <configuration>
           <suiteXmlFiles>
-            <suiteXmlFile>src/main/resources/SanitySuite.xml</suiteXmlFile>
+            <suiteXmlFile>src/main/resources/MainAutomationSuite.xml</suiteXmlFile>
           </suiteXmlFiles>
         </configuration>
       </plugin>

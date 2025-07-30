@@ -1,0 +1,47 @@
+[INFO ] 23 Jul 2025 11:58:15,694 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Chrome launched successfully
+[INFO ] 23 Jul 2025 11:58:15,768 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Maximized browser
+[INFO ] 23 Jul 2025 11:58:15,785 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Deleted all cookies
+[INFO ] 23 Jul 2025 11:58:20,745 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- AUT101 Is selected!!
+[INFO ] 23 Jul 2025 11:58:41,060 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- UserId is Entered!!
+[INFO ] 23 Jul 2025 11:58:41,210 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Password is Entered!!!
+[INFO ] 23 Jul 2025 11:58:41,343 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Clicked on Login Button!!
+[INFO ] 23 Jul 2025 11:59:04,739 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Search customer cursor is blinking in the input field.
+[INFO ] 23 Jul 2025 11:59:05,121 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Customer is searched by mobile number :7711207922
+[INFO ] 23 Jul 2025 11:59:25,192 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Customer is not registered. Clicking 'Register Customer' button.
+[INFO ] 23 Jul 2025 11:59:25,510 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Mobile number is Entered!!
+[INFO ] 23 Jul 2025 11:59:25,751 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Clicked on Generate Otp button!!
+[INFO ] 23 Jul 2025 11:59:29,656 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Enter otp and click on Submit button!!
+[ERROR] 23 Jul 2025 11:59:32,243 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- IHB radio button is not Selected!!!
+[INFO ] 23 Jul 2025 11:59:32,777 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- APPLICATOR is Selected!!
+[INFO ] 23 Jul 2025 11:59:34,216 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- First Name is entered!!
+[INFO ] 23 Jul 2025 11:59:34,553 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Last Name is entered!!
+[INFO ] 23 Jul 2025 11:59:35,460 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Email-ID is entered!!
+[INFO ] 23 Jul 2025 11:59:39,797 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Clicked on Select GeoCode button!!!
+[INFO ] 23 Jul 2025 11:59:44,941 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Clicked on confirm location button!!
+[INFO ] 23 Jul 2025 11:59:46,983 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Address Line 1 field is enabled and has no value.
+[INFO ] 23 Jul 2025 11:59:48,068 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- ✅ Address Line 2field has a value : Gurugram, Haryana 122002, India
+[INFO ] 23 Jul 2025 11:59:48,141 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- ✅ State field is disabled and has a value: HARYANA
+[INFO ] 23 Jul 2025 11:59:48,205 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- ✅ City field is disabled and has a value: Gurgaon
+[INFO ] 23 Jul 2025 11:59:48,264 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Landmark field is enabled and has no value.
+[INFO ] 23 Jul 2025 11:59:48,978 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- ✅ PinCodefield has a value : 122002
+[INFO ] 23 Jul 2025 11:59:51,015 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Default checkbox is  disabled and unable to clicked on it.
+[INFO ] 23 Jul 2025 11:59:52,152 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Clicked on Hear About Hippo Dropdown!!
+[INFO ] 23 Jul 2025 11:59:52,332 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Radio is Selected from dropdown.
+[INFO ] 23 Jul 2025 11:59:52,763 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Clicked on Proceed to Continue Button!!
+[INFO ] 23 Jul 2025 12:01:09,199 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Delivery mode as Self pickup is selected!!
+[INFO ] 23 Jul 2025 12:01:14,607 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Searched product - 1000000023
+[INFO ] 23 Jul 2025 12:01:14,859 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Clicked on continue button!!
+[INFO ] 23 Jul 2025 12:01:15,769 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Promotion applied successfully
+[INFO ] 23 Jul 2025 12:01:16,154 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Clicked on PayNow Button!!
+[INFO ] 23 Jul 2025 12:01:18,710 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Unable to verified customer name !!!!
+[INFO ] 23 Jul 2025 12:01:19,034 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Clicked on proceed to pay button!!
+[INFO ] 23 Jul 2025 12:01:23,587 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Cash payment tender was successfully selected and confirmed.
+[INFO ] 23 Jul 2025 12:01:25,853 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Successfully clicked on the 'Proceed to Pay' button in the Payment Details section.
+[INFO ] 23 Jul 2025 12:01:45,949 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- ✅ Order has been created successfully. PDF close button is visible and enabled.
+[INFO ] 23 Jul 2025 12:01:45,977 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Order Creation Successful → Order Number: SO/NOS1/AUT101/6
+[INFO ] 23 Jul 2025 12:01:46,469 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Customer is searched by mobile number :7711207922
+[INFO ] 23 Jul 2025 12:01:47,339 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Clicked on Add button!!
+[INFO ] 23 Jul 2025 12:01:47,827 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Clicked on Delivery Mode button!!
+[INFO ] 23 Jul 2025 12:01:51,023 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Selected delivery mode as delivery
+[ERROR] 23 Jul 2025 12:02:13,058 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Unable to select Address!!
+[INFO ] 23 Jul 2025 12:02:15,323 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Clicked on save selection button!!

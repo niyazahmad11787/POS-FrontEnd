@@ -1,12 +1,12 @@
-[INFO ] 20 Jun 2025 11:41:14,846 com.qa.hippo.tests.verifyWalkingCustomerFunctionality :- Chrome launched successfully
-[INFO ] 20 Jun 2025 11:41:14,937 com.qa.hippo.tests.verifyWalkingCustomerFunctionality :- Maximized browser
-[INFO ] 20 Jun 2025 11:41:14,959 com.qa.hippo.tests.verifyWalkingCustomerFunctionality :- Deleted all cookies
-[INFO ] 20 Jun 2025 11:41:17,634 com.qa.hippo.tests.verifyWalkingCustomerFunctionality :- Niyaz1 Is selected!!
-[INFO ] 20 Jun 2025 11:41:38,011 com.qa.hippo.tests.verifyWalkingCustomerFunctionality :- UserId is Entered!!
-[INFO ] 20 Jun 2025 11:41:38,254 com.qa.hippo.tests.verifyWalkingCustomerFunctionality :- Password is Entered!!!
-[INFO ] 20 Jun 2025 11:41:38,558 com.qa.hippo.tests.verifyWalkingCustomerFunctionality :- Clicked on Login Button!!
-[INFO ] 20 Jun 2025 11:42:02,987 com.qa.hippo.tests.verifyWalkingCustomerFunctionality :- Search customer cursor is blinking in the input field.
-[ERROR] 20 Jun 2025 11:42:02,991 com.qa.hippo.tests.verifyWalkingCustomerFunctionality :-  XLSX File not found : 
+[INFO ] 20 Jun 2025 11:41:14,846 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- Chrome launched successfully
+[INFO ] 20 Jun 2025 11:41:14,937 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- Maximized browser
+[INFO ] 20 Jun 2025 11:41:14,959 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- Deleted all cookies
+[INFO ] 20 Jun 2025 11:41:17,634 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- Niyaz1 Is selected!!
+[INFO ] 20 Jun 2025 11:41:38,011 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- UserId is Entered!!
+[INFO ] 20 Jun 2025 11:41:38,254 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- Password is Entered!!!
+[INFO ] 20 Jun 2025 11:41:38,558 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- Clicked on Login Button!!
+[INFO ] 20 Jun 2025 11:42:02,987 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- Search customer cursor is blinking in the input field.
+[ERROR] 20 Jun 2025 11:42:02,991 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :-  XLSX File not found :
 java.io.FileNotFoundException: C:\Users\ahmed.niyaz\IdeaProjects\POSFrontEndTestData\walkinCustomerData.xlsx (The system cannot find the path specified)
 	at java.io.FileInputStream.open0(Native Method) ~[?:?]
 	at java.io.FileInputStream.open(FileInputStream.java:216) ~[?:?]
@@ -14,7 +14,7 @@ java.io.FileNotFoundException: C:\Users\ahmed.niyaz\IdeaProjects\POSFrontEndTest
 	at java.io.FileInputStream.<init>(FileInputStream.java:111) ~[?:?]
 	at com.qa.hippo.utilities.ReadTestData.intialiseResources(ReadTestData.java:69) ~[classes/:?]
 	at com.qa.hippo.utilities.ReadTestData.readSheetData(ReadTestData.java:26) ~[classes/:?]
-	at com.qa.hippo.tests.verifyWalkingCustomerFunctionality.getWalkinCustomerData(verifyWalkingCustomerFunctionality.java:36) ~[test-classes/:?]
+	at com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup.getWalkinCustomerData(verifyWalkingCustomerFunctionality.java:36) ~[test-classes/:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
 	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]

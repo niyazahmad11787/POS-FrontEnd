@@ -1,0 +1,23 @@
+[INFO ] 02 Jul 2025 16:06:18,232 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- Chrome launched successfully
+[INFO ] 02 Jul 2025 16:06:18,265 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- Maximized browser
+[INFO ] 02 Jul 2025 16:06:18,272 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- Deleted all cookies
+[INFO ] 02 Jul 2025 16:06:23,069 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- Niyaz1 Is selected!!
+[INFO ] 02 Jul 2025 16:06:43,243 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- UserId is Entered!!
+[INFO ] 02 Jul 2025 16:06:43,389 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- Password is Entered!!!
+[INFO ] 02 Jul 2025 16:06:43,606 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- Clicked on Login Button!!
+[INFO ] 02 Jul 2025 16:07:06,955 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- Search customer cursor is blinking in the input field.
+[INFO ] 02 Jul 2025 16:07:27,278 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- Search customer cursor is blinking in the input field.
+[INFO ] 02 Jul 2025 16:07:27,497 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- Customer is searched by mobile number :987666655
+[INFO ] 02 Jul 2025 16:07:47,570 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- Customer is not registered. Clicking 'Walk-in Customer' button.
+[INFO ] 02 Jul 2025 16:07:52,804 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- Walk-in customer selected successfully!!
+[INFO ] 02 Jul 2025 16:07:58,091 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- Delivery mode as Self pickup is selected!!
+[INFO ] 02 Jul 2025 16:08:03,490 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- Searched product - 1000000023
+[INFO ] 02 Jul 2025 16:08:03,641 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- Clicked on continue button!!
+[INFO ] 02 Jul 2025 16:08:04,265 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- Promotion applied successfully
+[INFO ] 02 Jul 2025 16:08:04,573 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- Clicked on PayNow Button!!
+[INFO ] 02 Jul 2025 16:08:06,941 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- Unable to verified customer name !!!!
+[INFO ] 02 Jul 2025 16:08:07,139 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- Clicked on proceed to pay button!!
+[INFO ] 02 Jul 2025 16:08:11,496 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- Cash payment tender was successfully selected and confirmed.
+[INFO ] 02 Jul 2025 16:08:13,729 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- Successfully clicked on the 'Proceed to Pay' button in the Payment Details section.
+[INFO ] 02 Jul 2025 16:08:16,783 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- ✅ Order has been created successfully. PDF close button is visible and enabled.
+[INFO ] 02 Jul 2025 16:08:16,815 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- Order Creation Successful → Order Number: SO/NOS1/Niyaz1/223

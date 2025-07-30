@@ -1,0 +1,149 @@
+[INFO ] 03 Jul 2025 10:31:41,710 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Chrome launched successfully
+[INFO ] 03 Jul 2025 10:31:41,807 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Maximized browser
+[INFO ] 03 Jul 2025 10:31:41,833 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Deleted all cookies
+[INFO ] 03 Jul 2025 10:31:47,570 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Niyaz1 Is selected!!
+[INFO ] 03 Jul 2025 10:32:07,822 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- UserId is Entered!!
+[INFO ] 03 Jul 2025 10:32:08,030 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Password is Entered!!!
+[INFO ] 03 Jul 2025 10:32:08,279 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Clicked on Login Button!!
+[INFO ] 03 Jul 2025 10:32:32,056 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Search customer cursor is blinking in the input field.
+[INFO ] 03 Jul 2025 10:32:33,637 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Customer is searched by mobile number :8392530934
+[INFO ] 03 Jul 2025 10:32:53,784 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Customer is not registered. Clicking 'Register Customer' button.
+[INFO ] 03 Jul 2025 10:32:54,658 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Mobile number is Entered!!
+[INFO ] 03 Jul 2025 10:32:55,330 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Clicked on Generate Otp button!!
+[INFO ] 03 Jul 2025 10:33:00,967 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Enter otp and click on Submit button!!
+[ERROR] 03 Jul 2025 10:33:04,431 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- IHB radio button is not Selected!!!
+[INFO ] 03 Jul 2025 10:33:05,704 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- APPLICATOR is Selected!!
+[INFO ] 03 Jul 2025 10:33:07,714 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- First Name is entered!!
+[INFO ] 03 Jul 2025 10:33:08,367 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Last Name is entered!!
+[INFO ] 03 Jul 2025 10:33:10,251 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Email-ID is entered!!
+[INFO ] 03 Jul 2025 10:33:14,937 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Clicked on Select GeoCode button!!!
+[INFO ] 03 Jul 2025 10:33:21,258 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Clicked on confirm location button!!
+[INFO ] 03 Jul 2025 10:33:23,357 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Address Line 1 field is enabled and has no value.
+[INFO ] 03 Jul 2025 10:33:25,946 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- ✅ Address Line 2field has a value : Gurugram, Haryana 122002, India
+[INFO ] 03 Jul 2025 10:33:26,053 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- ✅ State field is disabled and has a value: HARYANA
+[INFO ] 03 Jul 2025 10:33:26,192 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- ✅ City field is disabled and has a value: Gurgaon
+[INFO ] 03 Jul 2025 10:33:26,317 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Landmark field is enabled and has no value.
+[INFO ] 03 Jul 2025 10:33:28,092 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- ✅ PinCodefield has a value : 122002
+[INFO ] 03 Jul 2025 10:33:30,129 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Default checkbox is  disabled and unable to clicked on it.
+[INFO ] 03 Jul 2025 10:33:31,353 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Clicked on Hear About Hippo Dropdown!!
+[INFO ] 03 Jul 2025 10:33:31,787 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Radio is Selected from dropdown.
+[INFO ] 03 Jul 2025 10:33:32,265 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Clicked on Proceed to Continue Button!!
+[INFO ] 03 Jul 2025 10:33:39,605 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Delivery mode as Self pickup is selected!!
+[INFO ] 03 Jul 2025 10:33:45,338 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Searched product - 1000000023
+[INFO ] 03 Jul 2025 10:33:45,739 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Clicked on continue button!!
+[INFO ] 03 Jul 2025 10:33:47,038 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Promotion applied successfully
+[INFO ] 03 Jul 2025 10:33:47,561 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Clicked on PayNow Button!!
+[INFO ] 03 Jul 2025 10:33:50,390 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Unable to verified customer name !!!!
+[INFO ] 03 Jul 2025 10:33:50,813 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Clicked on proceed to pay button!!
+[INFO ] 03 Jul 2025 10:33:55,507 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Cash payment tender was successfully selected and confirmed.
+[INFO ] 03 Jul 2025 10:33:57,793 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Successfully clicked on the 'Proceed to Pay' button in the Payment Details section.
+[INFO ] 03 Jul 2025 10:34:17,914 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- ✅ Order has been created successfully. PDF close button is visible and enabled.
+[INFO ] 03 Jul 2025 10:34:18,032 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Order Creation Successful → Order Number: SO/NOS1/Niyaz1/230
+[ERROR] 03 Jul 2025 10:34:21,635 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Delivery mode button is not displayed!!
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button class="MuiButtonBase-root Mui-disabled MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium tss-ru1dre-bottomNavigationButtonStyle tss-ucmph-deliveryMode css-1hw9j7s" tabindex="-1" type="button" id="deliveryModeOpenMenu" disabled="">...</button> is not clickable at point (139, 1176). Other element would receive the click: <div class="tss-1615lpe-navBarLeftContent">...</div>
+  (Session info: chrome=137.0.7151.122)
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9c9468d2348f4bea5aa9225a7b342450, clickElement {id=f.D5FFA197912121EBE6945625425792C0.d.0F48BAFFD08565B92E682E22C6E79218.e.308}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.122, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\AHMED~1.NIY\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65503}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65503/devtoo..., se:cdpVersion: 137.0.7151.122, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (9c9468d2348f4bea5aa9225a7b342450)] -> xpath: //button[contains(@class,'deliveryMode')]]
+Session ID: 9c9468d2348f4bea5aa9225a7b342450
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.19.1.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.19.1.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.19.1.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190) ~[selenium-remote-driver-4.19.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.19.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.19.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518) ~[selenium-remote-driver-4.19.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223) ~[selenium-remote-driver-4.19.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76) ~[selenium-remote-driver-4.19.1.jar:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51) ~[selenium-support-4.19.1.jar:?]
+	at jdk.proxy2.$Proxy29.click(Unknown Source) ~[?:?]
+	at com.qa.hippo.pages.DashboardPage.clickOnDeliveryModeButton(DashboardPage.java:176) ~[classes/:?]
+	at com.qa.hippo.tests.verifyIHBCustomerDeliveryScenerioTest.verifyDeliveryModeIsSelected(verifyIHBCustomerDeliveryScenerioTest.java:28) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+[ERROR] 03 Jul 2025 10:35:06,785 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Unable to select Address!!
+[ERROR] 03 Jul 2025 10:35:28,839 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Unable to click on save selection button!!
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@id='changeShippingAddressSaveButton']"}
+  (Session info: chrome=137.0.7151.122)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9c9468d2348f4bea5aa9225a7b342450, findElement {value=//button[@id='changeShippingAddressSaveButton'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.122, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\AHMED~1.NIY\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65503}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65503/devtoo..., se:cdpVersion: 137.0.7151.122, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9c9468d2348f4bea5aa9225a7b342450
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.19.1.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.19.1.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.19.1.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190) ~[selenium-remote-driver-4.19.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.19.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.19.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518) ~[selenium-remote-driver-4.19.1.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165) ~[selenium-remote-driver-4.19.1.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59) ~[selenium-remote-driver-4.19.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355) ~[selenium-remote-driver-4.19.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349) ~[selenium-remote-driver-4.19.1.jar:?]
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68) ~[selenium-support-4.19.1.jar:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38) ~[selenium-support-4.19.1.jar:?]
+	at jdk.proxy2.$Proxy29.isEnabled(Unknown Source) ~[?:?]
+	at com.qa.hippo.pages.DashboardPage.clickOnSaveSelectionButton(DashboardPage.java:336) ~[classes/:?]
+	at com.qa.hippo.tests.verifyIHBCustomerDeliveryScenerioTest.verifyAddressIsSelected(verifyIHBCustomerDeliveryScenerioTest.java:35) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]

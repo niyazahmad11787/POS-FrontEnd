@@ -73,5 +73,11 @@ public class verifyRegisterCustomerContractor extends BaseClass {
         registerNewCustomerIHB.clickOnContinueToRegisterButton();
     }
 
+    @Test(priority = 9)
+    public void verifyOrderPlacementFunctionalityForContractor(){
+        dashboardPage.clickOnDeliveryMode();
+        dashboardPage.selectProduct("1000000023");
+
+    }
 
 }

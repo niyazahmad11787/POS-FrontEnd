@@ -1,0 +1,6 @@
+[INFO ] 23 Jul 2025 11:47:03,435 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Chrome launched successfully
+[INFO ] 23 Jul 2025 11:47:03,482 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Maximized browser
+[INFO ] 23 Jul 2025 11:47:03,492 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Deleted all cookies
+[INFO ] 23 Jul 2025 11:47:08,653 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- AUT101 Is selected!!
+[INFO ] 23 Jul 2025 11:47:09,119 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- UserId is Entered!!
+[INFO ] 23 Jul 2025 11:47:09,337 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Password is Entered!!!

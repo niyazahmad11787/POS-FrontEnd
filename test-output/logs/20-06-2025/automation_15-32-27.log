@@ -1,21 +1,21 @@
-[INFO ] 20 Jun 2025 15:32:28,655 com.qa.hippo.tests.verifyWalkingCustomerFunctionality :- Chrome launched successfully
-[INFO ] 20 Jun 2025 15:32:28,705 com.qa.hippo.tests.verifyWalkingCustomerFunctionality :- Maximized browser
-[INFO ] 20 Jun 2025 15:32:28,716 com.qa.hippo.tests.verifyWalkingCustomerFunctionality :- Deleted all cookies
-[INFO ] 20 Jun 2025 15:32:30,758 com.qa.hippo.tests.verifyWalkingCustomerFunctionality :- Niyaz1 Is selected!!
-[INFO ] 20 Jun 2025 15:32:50,935 com.qa.hippo.tests.verifyWalkingCustomerFunctionality :- UserId is Entered!!
-[INFO ] 20 Jun 2025 15:32:51,029 com.qa.hippo.tests.verifyWalkingCustomerFunctionality :- Password is Entered!!!
-[INFO ] 20 Jun 2025 15:32:51,114 com.qa.hippo.tests.verifyWalkingCustomerFunctionality :- Clicked on Login Button!!
-[INFO ] 20 Jun 2025 15:33:14,406 com.qa.hippo.tests.verifyWalkingCustomerFunctionality :- Search customer cursor is blinking in the input field.
-[INFO ] 20 Jun 2025 15:33:14,472 com.qa.hippo.tests.verifyWalkingCustomerFunctionality :- Customer is searched by mobile number :987666655
-[INFO ] 20 Jun 2025 15:33:34,524 com.qa.hippo.tests.verifyWalkingCustomerFunctionality :- Customer is not registered. Clicking 'Walk-in Customer' button.
-[INFO ] 20 Jun 2025 15:33:39,613 com.qa.hippo.tests.verifyWalkingCustomerFunctionality :- Walk-in customer selected successfully!!
-[INFO ] 20 Jun 2025 15:33:44,736 com.qa.hippo.tests.verifyWalkingCustomerFunctionality :- Delivery mode as Self pickup is selected!!
-[INFO ] 20 Jun 2025 15:33:49,970 com.qa.hippo.tests.verifyWalkingCustomerFunctionality :- Searches product - 1000000023
-[INFO ] 20 Jun 2025 15:33:50,068 com.qa.hippo.tests.verifyWalkingCustomerFunctionality :- Clicked on continue button!!
-[INFO ] 20 Jun 2025 15:33:50,700 com.qa.hippo.tests.verifyWalkingCustomerFunctionality :- Promotion applied successfully
-[INFO ] 20 Jun 2025 15:33:50,966 com.qa.hippo.tests.verifyWalkingCustomerFunctionality :- Clicked on PayNow Button!!
-[INFO ] 20 Jun 2025 15:33:53,429 com.qa.hippo.tests.verifyWalkingCustomerFunctionality :- Unable to verified customer name !!!!
-[INFO ] 20 Jun 2025 15:33:53,562 com.qa.hippo.tests.verifyWalkingCustomerFunctionality :- Clicked on proceed to pay button!!
-[INFO ] 20 Jun 2025 15:33:57,812 com.qa.hippo.tests.verifyWalkingCustomerFunctionality :- Clicked on Cash Tender!!!
-[INFO ] 20 Jun 2025 15:33:59,950 com.qa.hippo.tests.verifyWalkingCustomerFunctionality :- Clicked on paymentDetailProceedToPay button!! 
-[INFO ] 20 Jun 2025 15:34:30,038 com.qa.hippo.tests.verifyWalkingCustomerFunctionality :- Order created Successfully!!!
+[INFO ] 20 Jun 2025 15:32:28,655 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- Chrome launched successfully
+[INFO ] 20 Jun 2025 15:32:28,705 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- Maximized browser
+[INFO ] 20 Jun 2025 15:32:28,716 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- Deleted all cookies
+[INFO ] 20 Jun 2025 15:32:30,758 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- Niyaz1 Is selected!!
+[INFO ] 20 Jun 2025 15:32:50,935 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- UserId is Entered!!
+[INFO ] 20 Jun 2025 15:32:51,029 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- Password is Entered!!!
+[INFO ] 20 Jun 2025 15:32:51,114 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- Clicked on Login Button!!
+[INFO ] 20 Jun 2025 15:33:14,406 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- Search customer cursor is blinking in the input field.
+[INFO ] 20 Jun 2025 15:33:14,472 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- Customer is searched by mobile number :987666655
+[INFO ] 20 Jun 2025 15:33:34,524 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- Customer is not registered. Clicking 'Walk-in Customer' button.
+[INFO ] 20 Jun 2025 15:33:39,613 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- Walk-in customer selected successfully!!
+[INFO ] 20 Jun 2025 15:33:44,736 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- Delivery mode as Self pickup is selected!!
+[INFO ] 20 Jun 2025 15:33:49,970 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- Searches product - 1000000023
+[INFO ] 20 Jun 2025 15:33:50,068 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- Clicked on continue button!!
+[INFO ] 20 Jun 2025 15:33:50,700 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- Promotion applied successfully
+[INFO ] 20 Jun 2025 15:33:50,966 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- Clicked on PayNow Button!!
+[INFO ] 20 Jun 2025 15:33:53,429 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- Unable to verified customer name !!!!
+[INFO ] 20 Jun 2025 15:33:53,562 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- Clicked on proceed to pay button!!
+[INFO ] 20 Jun 2025 15:33:57,812 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- Clicked on Cash Tender!!!
+[INFO ] 20 Jun 2025 15:33:59,950 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- Clicked on paymentDetailProceedToPay button!!
+[INFO ] 20 Jun 2025 15:34:30,038 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- Order created Successfully!!!

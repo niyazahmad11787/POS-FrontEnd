@@ -1,13 +1,13 @@
-[INFO ] 20 Jun 2025 12:16:05,732 com.qa.hippo.tests.verifyWalkingCustomerFunctionality :- Chrome launched successfully
-[INFO ] 20 Jun 2025 12:16:05,804 com.qa.hippo.tests.verifyWalkingCustomerFunctionality :- Maximized browser
-[INFO ] 20 Jun 2025 12:16:05,828 com.qa.hippo.tests.verifyWalkingCustomerFunctionality :- Deleted all cookies
-[INFO ] 20 Jun 2025 12:16:08,044 com.qa.hippo.tests.verifyWalkingCustomerFunctionality :- Niyaz1 Is selected!!
-[INFO ] 20 Jun 2025 12:16:28,365 com.qa.hippo.tests.verifyWalkingCustomerFunctionality :- UserId is Entered!!
-[INFO ] 20 Jun 2025 12:16:28,617 com.qa.hippo.tests.verifyWalkingCustomerFunctionality :- Password is Entered!!!
-[INFO ] 20 Jun 2025 12:16:28,893 com.qa.hippo.tests.verifyWalkingCustomerFunctionality :- Clicked on Login Button!!
-[INFO ] 20 Jun 2025 12:16:53,475 com.qa.hippo.tests.verifyWalkingCustomerFunctionality :- Search customer cursor is blinking in the input field.
-[INFO ] 20 Jun 2025 12:16:53,690 com.qa.hippo.tests.verifyWalkingCustomerFunctionality :- Customer is searched by mobile number :9129896786
-[ERROR] 20 Jun 2025 12:17:33,807 com.qa.hippo.tests.verifyWalkingCustomerFunctionality :- Error occurred while clicking Walk-in Customer button: no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(.,'Walkin Customer')]"}
+[INFO ] 20 Jun 2025 12:16:05,732 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- Chrome launched successfully
+[INFO ] 20 Jun 2025 12:16:05,804 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- Maximized browser
+[INFO ] 20 Jun 2025 12:16:05,828 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- Deleted all cookies
+[INFO ] 20 Jun 2025 12:16:08,044 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- Niyaz1 Is selected!!
+[INFO ] 20 Jun 2025 12:16:28,365 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- UserId is Entered!!
+[INFO ] 20 Jun 2025 12:16:28,617 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- Password is Entered!!!
+[INFO ] 20 Jun 2025 12:16:28,893 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- Clicked on Login Button!!
+[INFO ] 20 Jun 2025 12:16:53,475 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- Search customer cursor is blinking in the input field.
+[INFO ] 20 Jun 2025 12:16:53,690 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- Customer is searched by mobile number :9129896786
+[ERROR] 20 Jun 2025 12:17:33,807 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- Error occurred while clicking Walk-in Customer button: no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(.,'Walkin Customer')]"}
   (Session info: chrome=137.0.7151.104)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.19.1', revision: 'abe0ee07dc'
@@ -45,7 +45,7 @@ Session ID: 185e61ed041aaea0b0bf681abf39204f
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38) ~[selenium-support-4.19.1.jar:?]
 	at jdk.proxy2.$Proxy30.isDisplayed(Unknown Source) ~[?:?]
 	at com.qa.hippo.pages.WalkInCustomerPage.clickOnCustomerAddButton(WalkInCustomerPage.java:37) ~[classes/:?]
-	at com.qa.hippo.tests.verifyWalkingCustomerFunctionality.verifyCustomerIsNotRegistered(verifyWalkingCustomerFunctionality.java:33) ~[test-classes/:?]
+	at com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup.verifyCustomerIsNotRegistered(verifyWalkingCustomerFunctionality.java:33) ~[test-classes/:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
 	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]

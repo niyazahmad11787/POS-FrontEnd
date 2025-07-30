@@ -1,0 +1,5 @@
+[INFO ] 02 Jul 2025 15:59:27,296 com.qa.hippo.tests.LoginPageTest :- Chrome launched successfully
+[INFO ] 02 Jul 2025 15:59:27,352 com.qa.hippo.tests.LoginPageTest :- Maximized browser
+[INFO ] 02 Jul 2025 15:59:27,365 com.qa.hippo.tests.LoginPageTest :- Deleted all cookies
+[INFO ] 02 Jul 2025 15:59:32,242 com.qa.hippo.tests.LoginPageTest :- Niyaz1 Is selected!!
+[WARN ] 02 Jul 2025 15:59:32,263 com.qa.hippo.tests.LoginPageTest :- Terminal 'Niyaz1' is already in use.

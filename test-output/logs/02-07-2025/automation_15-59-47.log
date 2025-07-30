@@ -1,0 +1,8 @@
+[INFO ] 02 Jul 2025 15:59:48,835 com.qa.hippo.tests.LoginPageTest :- Chrome launched successfully
+[INFO ] 02 Jul 2025 15:59:48,876 com.qa.hippo.tests.LoginPageTest :- Maximized browser
+[INFO ] 02 Jul 2025 15:59:48,888 com.qa.hippo.tests.LoginPageTest :- Deleted all cookies
+[INFO ] 02 Jul 2025 15:59:54,035 com.qa.hippo.tests.LoginPageTest :- Niyaz1 Is selected!!
+[INFO ] 02 Jul 2025 16:00:14,289 com.qa.hippo.tests.LoginPageTest :- UserId is Entered!!
+[INFO ] 02 Jul 2025 16:00:14,509 com.qa.hippo.tests.LoginPageTest :- Password is Entered!!!
+[INFO ] 02 Jul 2025 16:00:14,697 com.qa.hippo.tests.LoginPageTest :- Clicked on Login Button!!
+[INFO ] 02 Jul 2025 16:00:38,193 com.qa.hippo.tests.LoginPageTest :- Search customer cursor is blinking in the input field.

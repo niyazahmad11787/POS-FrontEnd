@@ -1,0 +1,5 @@
+[INFO ] 23 Jul 2025 15:18:35,696 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Chrome launched successfully
+[INFO ] 23 Jul 2025 15:18:35,812 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Maximized browser
+[INFO ] 23 Jul 2025 15:18:35,833 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Deleted all cookies
+[INFO ] 23 Jul 2025 15:18:41,247 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- AUT101 Is selected!!
+[WARN ] 23 Jul 2025 15:18:41,324 com.qa.hippo.tests.verifyRegisterIHBNewCustomer :- Terminal 'AUT101' is already in use.

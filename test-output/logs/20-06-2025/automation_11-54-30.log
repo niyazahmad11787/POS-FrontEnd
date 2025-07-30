@@ -1,9 +1,9 @@
-[INFO ] 20 Jun 2025 11:54:33,449 com.qa.hippo.tests.verifyWalkingCustomerFunctionality :- Chrome launched successfully
-[INFO ] 20 Jun 2025 11:54:33,559 com.qa.hippo.tests.verifyWalkingCustomerFunctionality :- Maximized browser
-[INFO ] 20 Jun 2025 11:54:33,586 com.qa.hippo.tests.verifyWalkingCustomerFunctionality :- Deleted all cookies
-[INFO ] 20 Jun 2025 11:54:35,941 com.qa.hippo.tests.verifyWalkingCustomerFunctionality :- Niyaz1 Is selected!!
-[WARN ] 20 Jun 2025 11:54:35,985 com.qa.hippo.tests.verifyWalkingCustomerFunctionality :- Terminal 'Niyaz1' is already in use.
-[ERROR] 20 Jun 2025 11:54:39,584 com.qa.hippo.tests.verifyWalkingCustomerFunctionality :- Failure in Test method getOpeningBalanceTextBox
+[INFO ] 20 Jun 2025 11:54:33,449 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- Chrome launched successfully
+[INFO ] 20 Jun 2025 11:54:33,559 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- Maximized browser
+[INFO ] 20 Jun 2025 11:54:33,586 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- Deleted all cookies
+[INFO ] 20 Jun 2025 11:54:35,941 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- Niyaz1 Is selected!!
+[WARN ] 20 Jun 2025 11:54:35,985 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- Terminal 'Niyaz1' is already in use.
+[ERROR] 20 Jun 2025 11:54:39,584 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- Failure in Test method getOpeningBalanceTextBox
 org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
 Build info: version: '4.19.1', revision: 'abe0ee07dc'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
@@ -18,7 +18,7 @@ Session ID: ffdd1038046fd20bd5d75e3048027073
 	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:362) ~[selenium-remote-driver-4.19.1.jar:?]
 	at com.qa.hippo.pages.DashboardPage.getOpeningBalanceTextBox(DashboardPage.java:56) ~[classes/:?]
 	at com.qa.hippo.pages.WalkInCustomerPage.checkCustomerInputField(WalkInCustomerPage.java:20) ~[classes/:?]
-	at com.qa.hippo.tests.verifyWalkingCustomerFunctionality.verifyCustomerInputField(verifyWalkingCustomerFunctionality.java:26) ~[test-classes/:?]
+	at com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup.verifyCustomerInputField(verifyWalkingCustomerFunctionality.java:26) ~[test-classes/:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
 	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
@@ -83,7 +83,7 @@ Caused by: java.net.SocketException: Connection reset
 	at jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:937) ~[java.net.http:?]
 	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
 	at jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:937) ~[java.net.http:?]
-[ERROR] 20 Jun 2025 11:54:39,618 com.qa.hippo.tests.verifyWalkingCustomerFunctionality :- Failure in Test method searchGivenCustomer
+[ERROR] 20 Jun 2025 11:54:39,618 com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup :- Failure in Test method searchGivenCustomer
 org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
 Build info: version: '4.19.1', revision: 'abe0ee07dc'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
@@ -104,7 +104,7 @@ Session ID: ffdd1038046fd20bd5d75e3048027073
 	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287) ~[selenium-support-4.19.1.jar:?]
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203) ~[selenium-support-4.19.1.jar:?]
 	at com.qa.hippo.pages.DashboardPage.searchGivenCustomer(DashboardPage.java:93) ~[classes/:?]
-	at com.qa.hippo.tests.verifyWalkingCustomerFunctionality.verifyCustomerIsNotRegistered(verifyWalkingCustomerFunctionality.java:31) ~[test-classes/:?]
+	at com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup.verifyCustomerIsNotRegistered(verifyWalkingCustomerFunctionality.java:31) ~[test-classes/:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
 	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]

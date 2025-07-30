@@ -4,12 +4,11 @@ import com.qa.hippo.baseclass.BaseClass;
 import com.qa.hippo.pages.DashboardPage;
 import com.qa.hippo.pages.WalkInCustomerPage;
 import com.qa.hippo.utilities.ConfigLoader;
-import org.testng.annotations.BeforeClass;
+import com.qa.hippo.utilities.UtilClass;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-public class verifyWalkingCustomerFunctionality extends BaseClass {
+public class verifyWalkingCustomerFunctionalitySelfPickup extends BaseClass {
 
 
     WalkInCustomerPage walkInCustomerPage;
@@ -29,7 +28,7 @@ public class verifyWalkingCustomerFunctionality extends BaseClass {
 
     @Test(priority = 2)
     public void verifyCustomerIsNotRegistered(){
-        dashboardPage.searchGivenCustomer("987666655");
+        dashboardPage.searchGivenCustomer(UtilClass.generateMobileNumber());
         walkInCustomerPage.clickOnCustomerAddButton();
         walkInCustomerPage.verifyWalkinCustomerIsSelected();
     }
@@ -46,35 +45,35 @@ public class verifyWalkingCustomerFunctionality extends BaseClass {
     }
     @Test(priority = 5)
     public void verifyContinueButton(){
-        walkInCustomerPage.clickOnContinueButton();
+        dashboardPage.clickOnContinueButton();
     }
     @Test(priority = 6)
     public void verifyPromotionIsAppliedOrNot(){
-        walkInCustomerPage.promotionAppliedOrNot();
+        dashboardPage.promotionAppliedOrNot();
     }
     @Test(priority = 7)
     public void verifyPayNowButton(){
-        walkInCustomerPage.clickOnPayNowButton();
+        dashboardPage.clickOnPayNowButton();
     }
     @Test(priority = 8)
     public void verifyCustomerDetailsOnOrderPage(){
-        walkInCustomerPage.verifyCustomerName();
+        dashboardPage.verifyCustomerName();
     }
     @Test(priority = 9)
     public void verifyProceedToPaybutton(){
-        walkInCustomerPage.clickOnProceedToPayButton();
+        dashboardPage.clickOnProceedToPayButton();
     }
     @Test(priority = 10)
     public void verifyPaymentTender(){
-        walkInCustomerPage.selectPaymentTender();
+        dashboardPage.selectPaymentTender();
     }
     @Test(priority = 11)
     public void verifyPaymentDetailProceedToPay(){
-        walkInCustomerPage.verifyPaymentDetailProceedToPayButton();
+        dashboardPage.verifyPaymentDetailProceedToPayButton();
     }
     @Test(priority = 12)
     public void verifyOrderIsCreated(){
-        walkInCustomerPage.checkOrderCreation();
+        dashboardPage.checkOrderCreation();
     }
 
 }

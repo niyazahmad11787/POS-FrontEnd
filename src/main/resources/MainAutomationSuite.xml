@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MainAutomationSuite" verbose="1" preserve-order="true">
+
+    <!-- Global Parameter for Environment -->
+    <parameter name="Env" value="staging" />
+
+    <!-- Attach Listeners (e.g., Extent Report, Retry, Screenshots) -->
+    <listeners>
+        <listener class-name="com.qa.hippo.utilities.listeners.Listeners" />
+    </listeners>
+
+    <test name="verify Login Functionality">
+        <classes>
+            <class name="com.qa.hippo.tests.LoginPageTest"></class>
+        </classes>
+    </test>
+
+    <!-- Walk-in Customer -->
+    <test name="Walk-in Customer Functionality" enabled="false">
+        <classes>
+            <class name="com.qa.hippo.tests.verifyWalkingCustomerFunctionalitySelfPickup" />
+        </classes>
+    </test>
+
+    <!-- IHB Customer Functionalities -->
+    <test name="IHB Customer Flow" enabled="true">
+        <classes>
+            <class name="com.qa.hippo.tests.verifyRegisterIHBNewCustomer" />
+            <class name="com.qa.hippo.tests.verifyIHBCustomerSelfPickupScenerioTest" />
+            <class name="com.qa.hippo.tests.verifyIHBCustomerDeliveryScenerioTest" />
+            <class name="com.qa.hippo.tests.verifyIHBCustomerUnloadingChargesScenerioTest" />
+        </classes>
+    </test>
+
+    <!-- Contractor Customer Functionalities -->
+    <test name="Contractor Customer Flow" enabled="false">
+        <classes>
+            <class name="com.qa.hippo.tests.verifyRegisterCustomerContractor" />
+<!--            <class name="com.qa.hippo.tests.verifyCONCustomerSelfPickupScenerioTest" />-->
+<!--            <class name="com.qa.hippo.tests.verifyCONCustomerDeliveryScenerioTest" />-->
+<!--            <class name="com.qa.hippo.tests.verifyCONCustomerUnloadingChargesScenerioTest" />-->
+        </classes>
+    </test>
+
+</suite>

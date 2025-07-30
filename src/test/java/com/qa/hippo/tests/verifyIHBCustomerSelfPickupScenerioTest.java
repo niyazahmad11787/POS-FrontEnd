@@ -12,7 +12,6 @@ public class verifyIHBCustomerSelfPickupScenerioTest extends BaseClass {
 
 
     DashboardPage dashboardPage;
-    private WebDriverWait waitForReload;
 
     @BeforeMethod
     public void setUp(){
@@ -20,14 +19,15 @@ public class verifyIHBCustomerSelfPickupScenerioTest extends BaseClass {
 
     }
 
-    @Test(priority = 1)
+    @Test(priority = 1,enabled = false)
     public void searchCustomerInputField(){
         dashboardPage.getOpeningBalanceTextBox();
     }
 
-    @Test(priority = 2, dependsOnMethods = "searchCustomerInputField")
+    @Test(priority = 2, dependsOnMethods = "searchCustomerInputField",enabled = false)
     public void selectIHBCustomerSelfPickupTest(){
-        dashboardPage.searchGivenCustomer("9129896786");
+        String mobile=BaseClass.getMobile();
+        dashboardPage.searchGivenCustomer(mobile);
         dashboardPage.CustomerAddButton();
     }
 
@@ -36,7 +36,7 @@ public class verifyIHBCustomerSelfPickupScenerioTest extends BaseClass {
      * product text box and it is highlighted
      */
 
-    @Test(priority = 3, dependsOnMethods = "selectIHBCustomerSelfPickupTest")
+    @Test(priority = 3)
     public void verifySearchProductTextboxIsHighlightedIHBSelfPickup() {
         UtilClass.sleep(2000);
         dashboardPage.getSearchProductTextbox();
@@ -58,5 +58,39 @@ public class verifyIHBCustomerSelfPickupScenerioTest extends BaseClass {
    public void selectProductIHBSelfPickupTest(){
     dashboardPage.selectProduct(ConfigLoader.get("articleNumber"));
    }
+
+   @Test(priority = 6,dependsOnMethods = "selectProductIHBSelfPickupTest")
+    public void verifyContinueButton(){
+        dashboardPage.clickOnContinueButton();
+    }
+    @Test(priority = 7,dependsOnMethods = "verifyContinueButton")
+    public void verifyPromotionIsAppliedOrNot(){
+        dashboardPage.promotionAppliedOrNot();
+    }
+    @Test(priority = 8,dependsOnMethods = "verifyPromotionIsAppliedOrNot")
+    public void verifyPayNowButton(){
+        dashboardPage.clickOnPayNowButton();
+    }
+    @Test(priority = 9)
+    public void verifyCustomerDetailsOnOrderPage(){
+        dashboardPage.verifyCustomerName();
+    }
+    @Test(priority = 10)
+    public void verifyProceedToPaybutton(){
+        dashboardPage.clickOnProceedToPayButton();
+    }
+    @Test(priority = 11)
+    public void verifyPaymentTender(){
+        dashboardPage.selectPaymentTender();
+    }
+    @Test(priority = 12)
+    public void verifyPaymentDetailProceedToPay(){
+        dashboardPage.verifyPaymentDetailProceedToPayButton();
+    }
+    @Test(priority = 13)
+    public void verifyOrderIsCreated(){
+        dashboardPage.checkOrderCreation();
+    }
+
 
 }
